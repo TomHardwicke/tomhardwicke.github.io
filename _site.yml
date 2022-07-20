@@ -1,0 +1,15 @@
+name: "."
+title: "Tom Hardwicke"
+description: |
+  Tom Hardwicke
+output_dir: "."     # root of master or main branch
+theme: mystyle.css
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Publications"
+      href: '#publications'
+    - text: "CV"
+      href: hardwicke_cv.pdf
+output: distill::distill_article

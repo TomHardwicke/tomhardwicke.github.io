@@ -1,0 +1,1915 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style type="text/css">body {font-family: 'Roboto Slab', serif;}</style>
+
+    <title>Tom Hardwicke</title>
+
+    
+          <!--radix_placeholder_navigation_in_header-->
+          <meta name="distill:offset" content=""/>
+
+          <script type="application/javascript">
+
+            window.headroom_prevent_pin = false;
+
+            window.document.addEventListener("DOMContentLoaded", function (event) {
+
+              // initialize headroom for banner
+              var header = $('header').get(0);
+              var headerHeight = header.offsetHeight;
+              var headroom = new Headroom(header, {
+                tolerance: 5,
+                onPin : function() {
+                  if (window.headroom_prevent_pin) {
+                    window.headroom_prevent_pin = false;
+                    headroom.unpin();
+                  }
+                }
+              });
+              headroom.init();
+              if(window.location.hash)
+                headroom.unpin();
+              $(header).addClass('headroom--transition');
+
+              // offset scroll location for banner on hash change
+              // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
+              window.addEventListener("hashchange", function(event) {
+                window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
+              });
+
+              // responsive menu
+              $('.distill-site-header').each(function(i, val) {
+                var topnav = $(this);
+                var toggle = topnav.find('.nav-toggle');
+                toggle.on('click', function() {
+                  topnav.toggleClass('responsive');
+                });
+              });
+
+              // nav dropdowns
+              $('.nav-dropbtn').click(function(e) {
+                $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
+                $(this).parent().siblings('.nav-dropdown')
+                   .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
+              });
+              $("body").click(function(e){
+                $('.nav-dropdown-content').removeClass('nav-dropdown-active');
+              });
+              $(".nav-dropdown").click(function(e){
+                e.stopPropagation();
+              });
+            });
+          </script>
+
+          <style type="text/css">
+
+          /* Theme (user-documented overrideables for nav appearance) */
+
+          .distill-site-nav {
+            color: rgba(255, 255, 255, 0.8);
+            background-color: #0F2E3D;
+            font-size: 15px;
+            font-weight: 300;
+          }
+
+          .distill-site-nav a {
+            color: inherit;
+            text-decoration: none;
+          }
+
+          .distill-site-nav a:hover {
+            color: white;
+          }
+
+          @media print {
+            .distill-site-nav {
+              display: none;
+            }
+          }
+
+          .distill-site-header {
+
+          }
+
+          .distill-site-footer {
+
+          }
+
+
+          /* Site Header */
+
+          .distill-site-header {
+            width: 100%;
+            box-sizing: border-box;
+            z-index: 3;
+          }
+
+          .distill-site-header .nav-left {
+            display: inline-block;
+            margin-left: 8px;
+          }
+
+          @media screen and (max-width: 768px) {
+            .distill-site-header .nav-left {
+              margin-left: 0;
+            }
+          }
+
+
+          .distill-site-header .nav-right {
+            float: right;
+            margin-right: 8px;
+          }
+
+          .distill-site-header a,
+          .distill-site-header .title {
+            display: inline-block;
+            text-align: center;
+            padding: 14px 10px 14px 10px;
+          }
+
+          .distill-site-header .title {
+            font-size: 18px;
+            min-width: 150px;
+          }
+
+          .distill-site-header .logo {
+            padding: 0;
+          }
+
+          .distill-site-header .logo img {
+            display: none;
+            max-height: 20px;
+            width: auto;
+            margin-bottom: -4px;
+          }
+
+          .distill-site-header .nav-image img {
+            max-height: 18px;
+            width: auto;
+            display: inline-block;
+            margin-bottom: -3px;
+          }
+
+
+
+          @media screen and (min-width: 1000px) {
+            .distill-site-header .logo img {
+              display: inline-block;
+            }
+            .distill-site-header .nav-left {
+              margin-left: 20px;
+            }
+            .distill-site-header .nav-right {
+              margin-right: 20px;
+            }
+            .distill-site-header .title {
+              padding-left: 12px;
+            }
+          }
+
+
+          .distill-site-header .nav-toggle {
+            display: none;
+          }
+
+          .nav-dropdown {
+            display: inline-block;
+            position: relative;
+          }
+
+          .nav-dropdown .nav-dropbtn {
+            border: none;
+            outline: none;
+            color: rgba(255, 255, 255, 0.8);
+            padding: 16px 10px;
+            background-color: transparent;
+            font-family: inherit;
+            font-size: inherit;
+            font-weight: inherit;
+            margin: 0;
+            margin-top: 1px;
+            z-index: 2;
+          }
+
+          .nav-dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 200px;
+            border: 1px solid rgba(0,0,0,0.15);
+            border-radius: 4px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+            z-index: 1;
+            margin-top: 2px;
+            white-space: nowrap;
+            padding-top: 4px;
+            padding-bottom: 4px;
+          }
+
+          .nav-dropdown-content hr {
+            margin-top: 4px;
+            margin-bottom: 4px;
+            border: none;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+          }
+
+          .nav-dropdown-active {
+            display: block;
+          }
+
+          .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
+            color: black;
+            padding: 6px 24px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+          }
+
+          .nav-dropdown-content .nav-dropdown-header {
+            display: block;
+            padding: 5px 24px;
+            padding-bottom: 0;
+            text-transform: uppercase;
+            font-size: 14px;
+            color: #999999;
+            white-space: nowrap;
+          }
+
+          .nav-dropdown:hover .nav-dropbtn {
+            color: white;
+          }
+
+          .nav-dropdown-content a:hover {
+            background-color: #ddd;
+            color: black;
+          }
+
+          .nav-right .nav-dropdown-content {
+            margin-left: -45%;
+            right: 0;
+          }
+
+          @media screen and (max-width: 768px) {
+            .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
+            .distill-site-header a.nav-toggle {
+              float: right;
+              display: block;
+            }
+            .distill-site-header .title {
+              margin-left: 0;
+            }
+            .distill-site-header .nav-right {
+              margin-right: 0;
+            }
+            .distill-site-header {
+              overflow: hidden;
+            }
+            .nav-right .nav-dropdown-content {
+              margin-left: 0;
+            }
+          }
+
+
+          @media screen and (max-width: 768px) {
+            .distill-site-header.responsive {position: relative; min-height: 500px; }
+            .distill-site-header.responsive a.nav-toggle {
+              position: absolute;
+              right: 0;
+              top: 0;
+            }
+            .distill-site-header.responsive a,
+            .distill-site-header.responsive .nav-dropdown {
+              display: block;
+              text-align: left;
+            }
+            .distill-site-header.responsive .nav-left,
+            .distill-site-header.responsive .nav-right {
+              width: 100%;
+            }
+            .distill-site-header.responsive .nav-dropdown {float: none;}
+            .distill-site-header.responsive .nav-dropdown-content {position: relative;}
+            .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
+              display: block;
+              width: 100%;
+              text-align: left;
+            }
+          }
+
+          /* Site Footer */
+
+          .distill-site-footer {
+            width: 100%;
+            overflow: hidden;
+            box-sizing: border-box;
+            z-index: 3;
+            margin-top: 30px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align: center;
+          }
+
+          /* Headroom */
+
+          d-title {
+            padding-top: 6rem;
+          }
+
+          @media print {
+            d-title {
+              padding-top: 4rem;
+            }
+          }
+
+          .headroom {
+            z-index: 1000;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+          }
+
+          .headroom--transition {
+            transition: all .4s ease-in-out;
+          }
+
+          .headroom--unpinned {
+            top: -100px;
+          }
+
+          .headroom--pinned {
+            top: 0;
+          }
+
+          /* adjust viewport for navbar height */
+          /* helps vertically center bootstrap (non-distill) content */
+          .min-vh-100 {
+            min-height: calc(100vh - 100px) !important;
+          }
+
+          </style>
+
+          <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+          <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
+          <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+          <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+          <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
+          <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
+
+          <script type="application/javascript">
+
+          function getMeta(metaName) {
+            var metas = document.getElementsByTagName('meta');
+            for (let i = 0; i < metas.length; i++) {
+              if (metas[i].getAttribute('name') === metaName) {
+                return metas[i].getAttribute('content');
+              }
+            }
+            return '';
+          }
+
+          function offsetURL(url) {
+            var offset = getMeta('distill:offset');
+            return offset ? offset + '/' + url : url;
+          }
+
+          function createFuseIndex() {
+
+            // create fuse index
+            var options = {
+              keys: [
+                { name: 'title', weight: 20 },
+                { name: 'categories', weight: 15 },
+                { name: 'description', weight: 10 },
+                { name: 'contents', weight: 5 },
+              ],
+              ignoreLocation: true,
+              threshold: 0
+            };
+            var fuse = new window.Fuse([], options);
+
+            // fetch the main search.json
+            return fetch(offsetURL('search.json'))
+              .then(function(response) {
+                if (response.status == 200) {
+                  return response.json().then(function(json) {
+                    // index main articles
+                    json.articles.forEach(function(article) {
+                      fuse.add(article);
+                    });
+                    // download collections and index their articles
+                    return Promise.all(json.collections.map(function(collection) {
+                      return fetch(offsetURL(collection)).then(function(response) {
+                        if (response.status === 200) {
+                          return response.json().then(function(articles) {
+                            articles.forEach(function(article) {
+                              fuse.add(article);
+                            });
+                          })
+                        } else {
+                          return Promise.reject(
+                            new Error('Unexpected status from search index request: ' +
+                                      response.status)
+                          );
+                        }
+                      });
+                    })).then(function() {
+                      return fuse;
+                    });
+                  });
+
+                } else {
+                  return Promise.reject(
+                    new Error('Unexpected status from search index request: ' +
+                                response.status)
+                  );
+                }
+              });
+          }
+
+          window.document.addEventListener("DOMContentLoaded", function (event) {
+
+            // get search element (bail if we don't have one)
+            var searchEl = window.document.getElementById('distill-search');
+            if (!searchEl)
+              return;
+
+            createFuseIndex()
+              .then(function(fuse) {
+
+                // make search box visible
+                searchEl.classList.remove('hidden');
+
+                // initialize autocomplete
+                var options = {
+                  autoselect: true,
+                  hint: false,
+                  minLength: 2,
+                };
+                window.autocomplete(searchEl, options, [{
+                  source: function(query, callback) {
+                    const searchOptions = {
+                      isCaseSensitive: false,
+                      shouldSort: true,
+                      minMatchCharLength: 2,
+                      limit: 10,
+                    };
+                    var results = fuse.search(query, searchOptions);
+                    callback(results
+                      .map(function(result) { return result.item; })
+                    );
+                  },
+                  templates: {
+                    suggestion: function(suggestion) {
+                      var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
+                        ? `<img src="${offsetURL(suggestion.preview)}"</img>`
+                        : '';
+                      var html = `
+                        <div class="search-item">
+                          <h3>${suggestion.title}</h3>
+                          <div class="search-item-description">
+                            ${suggestion.description || ''}
+                          </div>
+                          <div class="search-item-preview">
+                            ${img}
+                          </div>
+                        </div>
+                      `;
+                      return html;
+                    }
+                  }
+                }]).on('autocomplete:selected', function(event, suggestion) {
+                  window.location.href = offsetURL(suggestion.path);
+                });
+                // remove inline display style on autocompleter (we want to
+                // manage responsive display via css)
+                $('.algolia-autocomplete').css("display", "");
+              })
+              .catch(function(error) {
+                console.log(error);
+              });
+
+          });
+
+          </script>
+
+          <style type="text/css">
+
+          .nav-search {
+            font-size: x-small;
+          }
+
+          /* Algolioa Autocomplete */
+
+          .algolia-autocomplete {
+            display: inline-block;
+            margin-left: 10px;
+            vertical-align: sub;
+            background-color: white;
+            color: black;
+            padding: 6px;
+            padding-top: 8px;
+            padding-bottom: 0;
+            border-radius: 6px;
+            border: 1px #0F2E3D solid;
+            width: 180px;
+          }
+
+
+          @media screen and (max-width: 768px) {
+            .distill-site-nav .algolia-autocomplete {
+              display: none;
+              visibility: hidden;
+            }
+            .distill-site-nav.responsive .algolia-autocomplete {
+              display: inline-block;
+              visibility: visible;
+            }
+            .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
+              margin-left: 0;
+              width: 400px;
+              max-height: 400px;
+            }
+          }
+
+          .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
+            width: 90%;
+            outline: none;
+            border: none;
+          }
+
+          .algolia-autocomplete .aa-hint {
+            color: #999;
+          }
+          .algolia-autocomplete .aa-dropdown-menu {
+            width: 550px;
+            max-height: 70vh;
+            overflow-x: visible;
+            overflow-y: scroll;
+            padding: 5px;
+            margin-top: 3px;
+            margin-left: -150px;
+            background-color: #fff;
+            border-radius: 5px;
+            border: 1px solid #999;
+            border-top: none;
+          }
+
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
+            cursor: pointer;
+            padding: 5px 4px;
+            border-bottom: 1px solid #eee;
+          }
+
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
+            border-bottom: none;
+            margin-bottom: 2px;
+          }
+
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
+            overflow: hidden;
+            font-size: 0.8em;
+            line-height: 1.4em;
+          }
+
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
+            font-size: 1rem;
+            margin-block-start: 0;
+            margin-block-end: 5px;
+          }
+
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
+            display: inline-block;
+            overflow: hidden;
+            height: 2.8em;
+            width: 80%;
+            margin-right: 4%;
+          }
+
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
+            display: inline-block;
+            width: 15%;
+          }
+
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
+            height: 3em;
+            width: auto;
+            display: none;
+          }
+
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
+            display: initial;
+          }
+
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
+            background-color: #eee;
+          }
+          .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
+            font-weight: bold;
+            font-style: normal;
+          }
+
+          </style>
+
+
+          <!--/radix_placeholder_navigation_in_header-->
+          <!--radix_placeholder_site_in_header-->
+          <!--/radix_placeholder_site_in_header-->
+          
+          <style type="text/css">
+          body {
+            padding-top: 60px;
+          }
+          </style>
+          <style type="text/css">
+          /* base variables */
+
+          /* Edit the CSS properties in this file to create a custom
+             Distill theme. Only edit values in the right column
+             for each row; values shown are the CSS defaults.
+             To return any property to the default,
+             you may set its value to: unset
+             All rows must end with a semi-colon.                      */
+
+          /* Optional: embed custom fonts here with `@import`          */
+          /* This must remain at the top of this file.                 */
+
+
+
+          html {
+            /*-- Main font sizes --*/
+            --title-size:      50px;
+            --body-size:       1.06rem;
+            --code-size:       14px;
+            --aside-size:      12px;
+            --fig-cap-size:    13px;
+            /*-- Main font colors --*/
+            --title-color:     #000000;
+            --header-color:    rgba(0, 0, 0, 0.8);
+            --body-color:      rgba(0, 0, 0, 0.8);
+            --aside-color:     rgba(0, 0, 0, 0.6);
+            --fig-cap-color:   rgba(0, 0, 0, 0.6);
+            /*-- Specify custom fonts ~~~ must be imported above   --*/
+            --heading-font:    sans-serif;
+            --mono-font:       monospace;
+            --body-font:       sans-serif;
+            --navbar-font:     sans-serif;  /* websites + blogs only */
+          }
+
+          /*-- ARTICLE METADATA --*/
+          d-byline {
+            --heading-size:    0.6rem;
+            --heading-color:   rgba(0, 0, 0, 0.5);
+            --body-size:       0.8rem;
+            --body-color:      rgba(0, 0, 0, 0.8);
+          }
+
+          /*-- ARTICLE TABLE OF CONTENTS --*/
+          .d-contents {
+            --heading-size:    18px;
+            --contents-size:   13px;
+          }
+
+          /*-- ARTICLE APPENDIX --*/
+          d-appendix {
+            --heading-size:    15px;
+            --heading-color:   rgba(0, 0, 0, 0.65);
+            --text-size:       0.8em;
+            --text-color:      rgba(0, 0, 0, 0.5);
+          }
+
+          /*-- WEBSITE HEADER + FOOTER --*/
+          /* These properties only apply to Distill sites and blogs  */
+
+          .distill-site-header {
+            --title-size:       18px;
+            --text-color:       rgba(255, 255, 255, 0.8);
+            --text-size:        15px;
+            --hover-color:      white;
+            --bkgd-color:       #0F2E3D;
+          }
+
+          .distill-site-footer {
+            --text-color:       rgba(255, 255, 255, 0.8);
+            --text-size:        15px;
+            --hover-color:      white;
+            --bkgd-color:       #0F2E3D;
+          }
+
+          /*-- Additional custom styles --*/
+          /* Add any additional CSS rules below                      */
+          </style>
+          <style type="text/css">
+          /* base variables */
+
+          /* Edit the CSS properties in this file to create a custom
+             Distill theme. Only edit values in the right column
+             for each row; values shown are the CSS defaults.
+             To return any property to the default,
+             you may set its value to: unset
+             All rows must end with a semi-colon.                      */
+
+          /* Optional: embed custom fonts here with `@import`          */
+          @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');
+
+          /* load stylesheet for academic icons*/
+          @import url('https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css');
+
+
+          /* This must remain at the top of this file.                 */
+
+          html {
+            /*-- Main font sizes --*/
+            --title-size:      50px;
+            --body-size:       1.06rem;
+            --code-size:       14px;
+            --aside-size:      12px;
+            --fig-cap-size:    13px;
+            /*-- Main font colors --*/
+            --title-color:     rgba(51, 51, 51, 1);
+            --header-color:    rgba(51, 51, 51, 1);
+            --body-color:      rgba(51, 51, 51, 1);
+            --aside-color:     rgba(0, 0, 0, 0.6);
+            --fig-cap-color:   rgba(0, 0, 0, 0.6);
+            /*-- Specify custom fonts ~~~ must be imported above   --*/
+            --heading-font:    "Lato", sans-serif;
+            --mono-font:       monospace;
+            --body-font:       "Lato", sans-serif;
+            --navbar-font:     "Lato", sans-serif;  /* websites + blogs only */
+            --webkit-font-smoothing: antialiased;
+            --moz-osx-font-smoothing: grayscale;
+          }
+
+
+
+          /*-- ARTICLE METADATA --*/
+          d-byline {
+            --heading-size:    0.6rem;
+            --heading-color:   rgba(0, 0, 0, 0.5);
+            --body-size:       0.8rem;
+            --body-color:      rgba(0, 0, 0, 0.8);
+          }
+
+          /*-- ARTICLE TABLE OF CONTENTS --*/
+          .d-contents {
+            --heading-size:    18px;
+            --contents-size:   13px;
+          }
+
+          /*-- ARTICLE APPENDIX --*/
+          d-appendix {
+            --heading-size:    15px;
+            --heading-color:   rgba(0, 0, 0, 0.65);
+            --text-size:       0.8em;
+            --text-color:      rgba(0, 0, 0, 0.5);
+          }
+
+          /*-- WEBSITE HEADER + FOOTER --*/
+          /* These properties only apply to Distill sites and blogs  */
+
+          .distill-site-header {
+            --title-size:       18px;
+            --text-color:       rgba(255, 255, 255, 0.8);
+            --text-size:        15px;
+            --hover-color:      white;
+            --bkgd-color:       #333; /* previously #0F2E3D */
+          }
+
+          .distill-site-footer {
+            --text-color:       rgba(255, 255, 255, 0.8);
+            --text-size:        15px;
+            --hover-color:      white;
+            --bkgd-color:       #333; /* previously #0F2E3D */
+          }
+
+          /*-- Additional custom styles --*/
+          /* Add any additional CSS rules below                      */
+
+          /* Styles for links in the publications section */
+          #publications a, a:hover {
+            color: #4183c4;
+            text-decoration: none;
+            font-weight: 400;
+          }
+
+          #publications a:hover {
+            text-decoration: none;
+            background-color: #d2edf9;
+          }
+
+          /* Hide title in navbar */
+          .distill-site-header .nav-left {
+            visibility: hidden;
+          }
+
+          /* adds buffer between name (left colum) and navbar */
+          .top-marg {
+            margin-top: 3rem!important;
+            margin-bottom: 0rem;
+          }
+
+          /* stops social media icons turning to rows when screen gets small*/
+          .list-group {
+            flex-direction: row;
+            justify-content: center;
+          }</style>
+          <style type="text/css">
+          /* base style */
+
+          /* FONT FAMILIES */
+
+          :root {
+            --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+            --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+            --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+          }
+
+          body,
+          .posts-list .post-preview p,
+          .posts-list .description p {
+            font-family: var(--body-font), var(--body-default);
+          }
+
+          h1, h2, h3, h4, h5, h6,
+          .posts-list .post-preview h2,
+          .posts-list .description h2 {
+            font-family: var(--heading-font), var(--heading-default);
+          }
+
+          d-article div.sourceCode code,
+          d-article pre code {
+            font-family: var(--mono-font), var(--mono-default);
+          }
+
+
+          /*-- TITLE --*/
+          d-title h1,
+          .posts-list > h1 {
+            color: var(--title-color, black);
+          }
+
+          d-title h1 {
+            font-size: var(--title-size, 50px);
+          }
+
+          /*-- HEADERS --*/
+          d-article h1,
+          d-article h2,
+          d-article h3,
+          d-article h4,
+          d-article h5,
+          d-article h6 {
+            color: var(--header-color, rgba(0, 0, 0, 0.8));
+          }
+
+          /*-- BODY --*/
+          d-article > p,  /* only text inside of <p> tags */
+          d-article > ul, /* lists */
+          d-article > ol {
+            color: var(--body-color, rgba(0, 0, 0, 0.8));
+            font-size: var(--body-size, 1.06rem);
+          }
+
+
+          /*-- CODE --*/
+          d-article div.sourceCode code,
+          d-article pre code {
+            font-size: var(--code-size, 14px);
+          }
+
+          /*-- ASIDE --*/
+          d-article aside {
+            font-size: var(--aside-size, 12px);
+            color: var(--aside-color, rgba(0, 0, 0, 0.6));
+          }
+
+          /*-- FIGURE CAPTIONS --*/
+          figure .caption,
+          figure figcaption,
+          .figure .caption {
+            font-size: var(--fig-cap-size, 13px);
+            color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
+          }
+
+          /*-- METADATA --*/
+          d-byline h3 {
+            font-size: var(--heading-size, 0.6rem);
+            color: var(--heading-color, rgba(0, 0, 0, 0.5));
+          }
+
+          d-byline {
+            font-size: var(--body-size, 0.8rem);
+            color: var(--body-color, rgba(0, 0, 0, 0.8));
+          }
+
+          d-byline a,
+          d-article d-byline a {
+            color: var(--body-color, rgba(0, 0, 0, 0.8));
+          }
+
+          /*-- TABLE OF CONTENTS --*/
+          .d-contents nav h3 {
+            font-size: var(--heading-size, 18px);
+          }
+
+          .d-contents nav a {
+            font-size: var(--contents-size, 13px);
+          }
+
+          /*-- APPENDIX --*/
+          d-appendix h3 {
+            font-size: var(--heading-size, 15px);
+            color: var(--heading-color, rgba(0, 0, 0, 0.65));
+          }
+
+          d-appendix {
+            font-size: var(--text-size, 0.8em);
+            color: var(--text-color, rgba(0, 0, 0, 0.5));
+          }
+
+          d-appendix d-footnote-list a.footnote-backlink {
+            color: var(--text-color, rgba(0, 0, 0, 0.5));
+          }
+
+          /*-- WEBSITE HEADER + FOOTER --*/
+          .distill-site-header .title {
+            font-size: var(--title-size, 18px);
+            font-family: var(--navbar-font), var(--heading-default);
+          }
+
+          .distill-site-header a,
+          .nav-dropdown .nav-dropbtn {
+            font-family: var(--navbar-font), var(--heading-default);
+          }
+
+          .nav-dropdown .nav-dropbtn {
+            color: var(--text-color, rgba(255, 255, 255, 0.8));
+            font-size: var(--text-size, 15px);
+          }
+
+          .distill-site-header a:hover,
+          .nav-dropdown:hover .nav-dropbtn {
+            color: var(--hover-color, white);
+          }
+
+          .distill-site-header {
+            font-size: var(--text-size, 15px);
+            color: var(--text-color, rgba(255, 255, 255, 0.8));
+            background-color: var(--bkgd-color, #0F2E3D);
+          }
+
+          .distill-site-footer {
+            font-size: var(--text-size, 15px);
+            color: var(--text-color, rgba(255, 255, 255, 0.8));
+            background-color: var(--bkgd-color, #0F2E3D);
+          }
+
+          .distill-site-footer a:hover {
+            color: var(--hover-color, white);
+          }</style>
+          <script src="/Library/Frameworks/R.framework/Versions/4.2/Resources/library/rmarkdown/rmd/h/pandoc/header-attrs.js"></script>
+    
+    
+  </head>
+  <body>
+
+          <!--radix_placeholder_navigation_before_body-->
+          <header class="header header--fixed" role="banner">
+          <nav class="distill-site-nav distill-site-header">
+          <div class="nav-left">
+          <a href="index.html" class="title">Tom Hardwicke</a>
+          </div>
+          <div class="nav-right">
+          <a href="index.html">Home</a>
+          <a href="#publications">Publications</a>
+          <a href="hardwicke_cv.pdf">CV</a>
+          <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
+          </div>
+          </nav>
+          </header>
+          <!--/radix_placeholder_navigation_before_body-->
+          <!--radix_placeholder_site_before_body-->
+          <!--/radix_placeholder_site_before_body-->
+    
+    <div class="container-fluid d-none d-lg-block d-xl-block">
+      <div class="d-flex row flex-row vh-100">
+        <div class="d-flex flex-column col-5 align-items-center text-center">
+          <div class="mx-auto text-center">
+            <!-- removing image
+            <div class="p-3">
+              <img src="" style="height:15rem" class="rounded">
+            </div>
+            -->
+            <div class="p-2 top-marg">
+              <h2>Tom Hardwicke</h2>
+              <h4>Research Fellow</h4>
+              <h4>University of Melbourne</h4>
+            </div>
+            <hr style="width:60%;"/>
+            <div class="p-2">
+              <div id="icon-list">
+                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                    <a href=https://twitter.com/Tom_Hardwicke>
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href=https://github.com/TomHardwicke>
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        <svg aria-hidden="true" role="img" viewBox="0 0 496 512" style="height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href=https://osf.io/i8w73/>
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        <i class="ai ai-osf"></i>
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href=https://scholar.google.co.uk/citations?user=1zq46yYAAAAJ&amp;hl=en>
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        <i class="ai ai-google-scholar"></i>
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href=https://orcid.org/0000-0001-9485-4952>
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M294.75 188.19h-45.92V342h47.47c67.62 0 83.12-51.34 83.12-76.91 0-41.64-26.54-76.9-84.67-76.9zM256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm-80.79 360.76h-29.84v-207.5h29.84zm-14.92-231.14a19.57 19.57 0 1 1 19.57-19.57 19.64 19.64 0 0 1-19.57 19.57zM300 369h-81V161.26h80.6c76.73 0 110.44 54.83 110.44 103.85C410 318.39 368.38 369 300 369z"/></svg>
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href=mailto:hardwickete@gmail.com>
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                      </button>
+                    </a>
+                  </li>
+                                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column vh-100 border-left"></div>
+        <div class="d-flex flex-column col px-5 align-items-center align-self-center mh-100" style="overflow-y: scroll;">
+          <div class="my-5" id="content">
+            <div id="publications" class="section level2">
+            <h2>Publications</h2>
+            <p>[<a href="#section">2022</a>] [<a
+            href="#section-1">2021</a>] [<a href="#section-2">2020</a>]
+            [<a href="#section-3">2019</a>] [<a
+            href="#section-4">2018</a>] [<a href="#section-5">2017</a>]
+            [<a href="#section-6">2016</a>] [<a href="#pre-2016">Before
+            2016</a>]</p>
+            <div id="submitted" class="section level4">
+            <h4>Submitted</h4>
+            <p>Hardwicke, T. E., Salholz-Hillel, M., Malički, M., Szűcs,
+            D., Bendixen, T., Ioannidis, J. P. A. (preprint).
+            Statistical guidance to authors at top-ranked journals
+            across scientific disciplines. <em>MetaArXiv</em>.<br />
+            <a
+            href="https://doi.org/10.31222/osf.io/q6ajt">[preprint]</a>
+            <a href="https://osf.io/cz9g3/">[preregistration]</a> <a
+            href="https://dx.doi.org/10.17605/OSF.IO/JRX7D">[data]</a>
+            <a
+            href="https://dx.doi.org/10.17605/OSF.IO/JRX7D">[materials]</a>
+            <a
+            href="https://dx.doi.org/10.17605/OSF.IO/JRX7D">[analysis-code]</a>
+            <a
+            href="https://doi.org/10.24433/CO.6131540.v1">[reproducible-container]</a></p>
+            <p>Fernández, L. M., Hardwicke, T. E., &amp; Vadillo, M. A.
+            (preprint). Retracted papers clinging on to life: An
+            observational study of post-retraction citations in
+            psychology. <em>PsyArXiv</em>.<br />
+            <a href="https://doi.org/hcht">[preprint]</a> <a
+            href="https://osf.io/t73rk/">[data]</a> <a
+            href="https://osf.io/t73rk/">[analysis-code]</a></p>
+            <p>Hardwicke, T. E., &amp; Wagenmakers, E.-J. (preprint).
+            Reducing bias, increasing transparency, and calibrating
+            confidence with preregistration. <em>MetaArXiv</em>.<br />
+            <a
+            href="https://doi.org/10.31222/osf.io/d7bcu">[preprint]</a></p>
+            </div>
+            <div id="section" class="section level4">
+            <h4>2022</h4>
+            <p>Hardwicke, T. E., Thibault, R. T., Kosie, J. E.,
+            Tzavella, L., Bendixen, T., Handcock, S. A. Köneke, V. E.,
+            Ioannidis, J. P. A. (in press). Post-publication critique at
+            top-ranked journals across scientific disciplines: A
+            cross-sectional assessment of policies and practice.
+            <em>Royal Society Open Science</em>.<br />
+            <a href="https://doi.org/hc7d">[preprint]</a> <a
+            href="https://osf.io/hjvnw/">[preregistration]</a> <a
+            href="https://osf.io/8b6jy/">[data]</a> <a
+            href="https://osf.io/8b6jy/">[materials]</a> <a
+            href="https://osf.io/8b6jy/">[analysis-code]</a> <a
+            href="https://doi.org/10.24433/CO.3805142.v1">[reproducible-container]</a></p>
+            <p>TARG Meta-Research Group &amp; Collaborators, Thibault,
+            R. T., Hardwicke, T. E., Clark, R. W. A., Pennington, C. R.,
+            Nilsonne, G., O’Mahony, A., Drax, K., Thompson, J., Munafò,
+            M. R. (in press). Discrepancy review: A feasibility study of
+            a novel peer review intervention to reduce undisclosed
+            discrepancies between registrations and publications.
+            <em>Royal Society Open Science</em>.<br />
+            <a href="https://doi.org/hdgv">[preprint]</a> <a
+            href="https://osf.io/w3bkt/">[preregistration]</a> <a
+            href="https://osf.io/25ebk/">[data]</a> <a
+            href="https://osf.io/5dh47/files">[materials]</a> <a
+            href="https://osf.io/25ebk/">[analysis-code]</a></p>
+            <p>Nosek, B. A., Hardwicke, T. E., Moshontz, H., Allard, A.,
+            Corker, K. S., Dreber, A., Fidler, F., Hilgard, J., Kline
+            Struhl, M., Nuijten, M., Rohrer, J., Romero, F., Scheel.,
+            A., Scherer, L., Schönbrodt, F., &amp; Vazire, S. (2022).
+            Replicability, robustness, and reproducibility in
+            psychological science. <em>Annual Review of Psychology</em>,
+            <em>73</em>, 719-748.<br />
+            <a
+            href="http://www.annualreviews.org/eprint/BEG4HHRDH6R6UHSGU3YR/full/10.1146/annurev-psych-020821-114157">[paper]</a>
+            <a href="https://doi.org/ftzw">[preprint]</a> <a
+            href="https://osf.io/7np92/">[preregistration]</a> <a
+            href="https://osf.io/7np92/">[materials]</a> <a
+            href="https://osf.io/7np92/">[data]</a> <a
+            href="https://osf.io/7np92/">[analysis-code]</a> <a
+            href="https://doi.org/10.24433/CO.4977248.v1">[reproducible-container]</a></p>
+            <p>Hardwicke, T. E., Thibault, R. T., Kosie, J. E., Wallach,
+            J. D., Kidwell, M. C., &amp; Ioannidis, J. P. A. (2022).
+            Estimating the prevalence of transparency and
+            reproducibility-related research practices in psychology
+            (2014-2017). <em>Perspectives on Psychological Science</em>,
+            <em>17</em>(1), 239-251.<br />
+            <a
+            href="https://doi.org/10.1177%2F1745691620979806">[paper]</a>
+            <a
+            href="https://doi.org/10.31222/osf.io/9sz2y">[preprint]</a>
+            <a href="https://osf.io/q96eh/">[preregistration]</a> <a
+            href="https://osf.io/c89sy/">[materials]</a> <a
+            href="https://osf.io/5qmz7/">[data]</a> <a
+            href="https://osf.io/gfjtq/">[analysis-code]</a> <a
+            href="https://doi.org/10.24433/CO.1618143.v2">[reproducible-container]</a></p>
+            </div>
+            <div id="section-1" class="section level4">
+            <h4>2021</h4>
+            <p>Hardwicke, T. E., Szucs D., Thibault, R. T., Crüwell, S.,
+            van den Akker, O. R., Nuijten, M. B., &amp; Ioannidis, J. P.
+            A. (2021). Citation patterns following a strongly
+            contradictory replication result: Four case studies from
+            psychology. <em>Advances in Methods and Practices in
+            Psychological Science</em>, <em>4</em>, 1-14.<br />
+            <a
+            href="https://doi.org/10.1177/25152459211040837">[paper]</a>
+            <a href="https://doi.org/ftx5">[preprint]</a> <a
+            href="https://osf.io/eh5qd/">[preregistration]</a> <a
+            href="https://osf.io/w8h2q/">[materials]</a> <a
+            href="https://osf.io/w8h2q/">[data]</a> <a
+            href="https://osf.io/w8h2q/">[analysis-code]</a> <a
+            href="https://doi.org/10.24433/CO.4225975.v3">[reproducible-container]</a></p>
+            <p>Hardwicke, T. E., Bohn, M., MacDonald, K., Hembacher, E.,
+            Nuijten, M. B., Peloquin, B. N., deMayo, B., Long, B., Yoon,
+            E. J., &amp; Frank, M. C. (2021). Analytic reproducibility
+            in articles receiving open data badges at the journal
+            Psychological Science: An observational study. <em>Royal
+            Society Open Science</em>, <em>8</em>, 201494.<br />
+            <a href="https://doi.org/fp2m">[paper]</a> <a
+            href="https://doi.org/d3mz">[preprint]</a> <a
+            href="https://osf.io/2cnkq/">[preregistration]</a> <a
+            href="https://osf.io/wy6a5/">[materials]</a> <a
+            href="https://osf.io/tfd8z/">[data]</a> <a
+            href="https://osf.io/tfd8z/">[analysis-code]</a> <a
+            href="https://doi.org/10.24433/CO.1796004.v3">[reproducible-container]</a></p>
+            </div>
+            <div id="section-2" class="section level4">
+            <h4>2020</h4>
+            <p>Hardwicke, T. E., &amp; Goodman, S. N. (2020). How often
+            do leading biomedical journals use statistical experts to
+            evaluate statistical methods? The results of a survey.
+            <em>PLOS ONE</em>, <em>15</em>, e0239598.<br />
+            <a
+            href="https://dx.doi.org/10.1371%2Fjournal.pone.0239598">[paper]</a>
+            <a
+            href="https://doi.org/10.31222/osf.io/z27u4">[preprint]</a>
+            <a
+            href="https://doi.org/10.17605/osf.io/p7g8w">[materials]</a>
+            <a href="https://doi.org/10.17605/osf.io/nscv3">[data]</a>
+            <a
+            href="https://doi.org/10.17605/osf.io/dy6kj">[analysis-code]</a>
+            <a
+            href="https://doi.org/10.24433/CO.3883021.v1">[reproducible-container]</a></p>
+            <p>Hardwicke, T. E., Serghiou, S., Janiaud, P., Danchev, V.,
+            Crüwell, S., Goodman, S. N., &amp; Ioannidis, J. P. A.
+            (2020). Calibrating the scientific ecosystem through
+            meta-research. <em>Annual Review of Statistics and its
+            Application</em>, <em>7</em>, 11-37.<br />
+            <a
+            href="https://doi.org/10.1146/annurev-statistics-031219-041104">[paper]</a>
+            <a
+            href="https://doi.org/10.31222/osf.io/krb58">[preprint]</a></p>
+            <p>Ferrero, M., Hardwicke, T. E., Konstantinidis, E., &amp;
+            Vadillo, M. A. (2020). The effectiveness of refutation texts
+            to correct misconceptions among educators. <em>Journal of
+            Experimental Psychology: Applied</em>, <em>26</em>,
+            411-421.<br />
+            <a
+            href="https://psycnet.apa.org/doi/10.1037/xap0000258">[paper]</a>
+            <a
+            href="https://doi.org/10.31234/osf.io/ehybj">[preprint]</a>
+            <a href="https://osf.io/73a9y/">[materials]</a> <a
+            href="https://osf.io/sg6jy/">[data]</a> <a
+            href="https://osf.io/pxv5b/">[analysis-code]</a></p>
+            <p>Hardwicke, T. E., Wallach, J. D., Kidwell, M. C.,
+            Bendixen, T., Crüwell, S., &amp; Ioannidis, J. P. A. (2020).
+            An empirical assessment of transparency and
+            reproducibility-related research practices in the social
+            sciences (2014-2017). <em>Royal Society Open Science</em>,
+            <em>7</em>, 190806.<br />
+            <a href="https://dx.doi.org/10.1098/rsos.190806">[paper]</a>
+            <a
+            href="https://doi.org/10.31222/osf.io/6uhg5">[preprint]</a>
+            <a href="https://osf.io/u5bk9/">[preregistration]</a> <a
+            href="https://osf.io/z9qtr/">[materials]</a> <a
+            href="https://osf.io/u9fw8/">[data]</a> <a
+            href="https://osf.io/sbrez/">[analysis-code]</a> <a
+            href="https://doi.org/10.24433/CO.2749769.v2">[reproducible-container]</a></p>
+            </div>
+            <div id="section-3" class="section level4">
+            <h4>2019</h4>
+            <p>Hardwicke, T. E., &amp; Ioannidis, J. P. A. (2019).
+            Petitions in scientific argumentation: dissecting the
+            request to retire statistical significance. <em>European
+            Journal of Clinical Investigation</em>, <em>49</em>,
+            e13162.<br />
+            <a href="https://doi.org/10.1111/eci.13162">[paper]</a> <a
+            href="https://doi.org/10.31222/osf.io/73xm5">[preprint]</a>
+            <a href="https://osf.io/hbkj3/">[preregistration]</a> <a
+            href="https://osf.io/u7nx4/">[materials]</a> <a
+            href="https://osf.io/6a94k/">[data]</a> <a
+            href="https://osf.io/jpztm/">[analysis-code]</a> <a
+            href="https://doi.org/10.24433/CO.3912558.v1">[reproducible-container]</a>
+            <a href="https://doi.org/10.1111/eci.13165">[comment1]</a>
+            <a href="https://doi.org/10.1111/eci.13170">[comment2]</a>
+            <a
+            href="https://doi.org/10.1111/eci.13176">[comment3]</a></p>
+            <p>Nosek, B. A., Beck, E. D., Campbell, L., Flake, J. K.,
+            Hardwicke, T. E., Mellor, D. T., van ’t Veer, A. E., &amp;
+            Vazire, S. (2019). Preregistration is hard, and worthwhile.
+            <em>Trends in Cognitive Sciences</em>, <em>23</em>,
+            815-818.<br />
+            <a
+            href="https://doi.org/10.1016/j.tics.2019.07.009">[paper]</a>
+            <a
+            href="https://doi.org/10.31234/osf.io/wu3vs">[preprint]</a></p>
+            <p>Hardwicke, T. E., Frank, M. C., Vazire, S., &amp;
+            Goodman, S. N. (2019). Should psychology journals adopt
+            specialized statistical review? <em>Advances in Methods and
+            Practices in Psychological Science</em>, <em>2</em>,
+            240-249.<br />
+            <a
+            href="https://doi.org/10.1177/2515245919858428">[paper]</a>
+            <a href="https://osf.io/tmah8/files/">[materials]</a> <a
+            href="https://osf.io/nquws/files/">[data]</a> <a
+            href="https://osf.io/4zurk/files/">[analysis-code]</a> <a
+            href="https://doi.org/10.24433/CO.8241121.v3">[reproducible-container]</a>
+            <a
+            href="https://www.psychologicalscience.org/publications/observer/obsonline/strengthening-psychological-science-with-specialized-statistical-review.html?utm_source=tw&amp;utm_medium=social&amp;utm_campaign=AMPPSstatisticalreview">[media]</a></p>
+            </div>
+            <div id="section-4" class="section level4">
+            <h4>2018</h4>
+            <p>Hardwicke, T. E. &amp; Ioannidis, J. P. A. (2018).
+            Mapping the universe of registered reports. <em>Nature Human
+            Behaviour</em>, <em>2</em>, 793–796.<br />
+            <a href="https://rdcu.be/8eBP">[paper]</a> <a
+            href="https://osf.io/uzegq/">[materials]</a> <a
+            href="https://osf.io/rv7eb/">[data]</a> <a
+            href="https://osf.io/uzfjp/">[analysis-code]</a> <a
+            href="https://doi.org/10.24433/CO.03fa2564-3910-4982-9882-4f2fcec50385.v3">[reproducible-container]</a>
+            <a
+            href="https://dx.doi.org/10.17605/OSF.IO/FZPCY">[preprint]</a>
+            <a
+            href="https://doi.org/10.1038/s41562-018-0449-6">[comment]</a>
+            <a
+            href="https://doi.org/10.1038/s41562-018-0477-2">[comment2]</a></p>
+            <p>Hardwicke, T. E., Mathur, M. B., MacDonald, K., Nilsonne,
+            G., Banks, G. C., Kidwell, M. C., Hofelich Mohr, A.,
+            Clayton, E., Yoon, E. J., Henry Tessler, M., Lenne, R. L.,
+            Altman, S., Long, B., &amp; Frank, M. C. (2018). Data
+            availability, reusability, and analytic reproducibility:
+            Evaluating the impact of a mandatory open data policy at the
+            journal Cognition. <em>Royal Society Open Science</em>,
+            <em>5</em>, 180448.<br />
+            <a href="https://dx.doi.org/10.1098/rsos.180448">[paper]</a>
+            <a
+            href="https://dx.doi.org/10.17605/OSF.IO/39CFB">[preprint]</a>
+            <a href="https://osf.io/q4qy3/">[preregistration]</a> <a
+            href="https://osf.io/k2mdr/">[materials]</a> <a
+            href="https://osf.io/6s8b3/">[data]</a> <a
+            href="https://osf.io/wf3as/">[analysis-code]</a> <a
+            href="https://doi.org/10.24433/CO.abd8b483-c5e3-4382-a493-1fc5aecb0f1d.v2">[reproducible-container]</a>
+            <a
+            href="https://tomhardwicke.netlify.app/blog/psychology-reproducibility/">[blog1]</a>
+            <a
+            href="https://tomhardwicke.netlify.app/blog/open-data-reusability/">[blog2]</a>
+            <a
+            href="https://doi.org/10.1016/j.cognition.2018.10.008">[comment]</a></p>
+            <p>Hardwicke, T. E. &amp; Ioannidis, J. P. A. (2018).
+            Populating the Data Ark: An attempt to retrieve, preserve,
+            and liberate data from the most highly-cited psychology and
+            psychiatry articles. <em>PLOS ONE</em>, <em>13</em>,
+            e0201856.<br />
+            <a
+            href="https://doi.org/10.1371/journal.pone.0201856">[paper]</a>
+            <a href="https://osf.io/4dum6/">[materials]</a> <a
+            href="https://osf.io/r38qu/">[data]</a> <a
+            href="https://osf.io/7syrt/">[analysis-code]</a> <a
+            href="https://doi.org/10.24433/CO.241ffbb1-5b81-44bd-94f4-d066b62c5f7f.v2">[reproducible-container]</a>
+            <a
+            href="https://tomhardwicke.netlify.app/blog/attrition-scholarly-record/">[blog]</a>
+            <a
+            href="https://blogs.discovermagazine.com/neuroskeptic/2018/08/06/how-accessible-is-psychology-data/">[media]</a></p>
+            <p>Hardwicke, T. E., Henry Tessler, M., Peloquin, B., &amp;
+            Frank, M. C. (2018). A Bayesian decision-making framework
+            for replication. <em>Behavioral and Brain Sciences</em>,
+            <em>41</em>, e132.<br />
+            <a
+            href="https://doi.org/10.1017/S0140525X18000675">[paper]</a>
+            <a
+            href="https://dx.doi.org/10.17605/OSF.IO/N3YAH">[preprint]</a></p>
+            <p>Klein, O., Hardwicke, T. E., Aust, F., Breuer, J.,
+            Danielsson, H., Hofelich Mohr, A., IJzerman, H., Nilsonne,
+            G., Vanpaemel, W., &amp; Frank, M. C. (2018). A practical
+            guide for transparency in psychological science.
+            <em>Collabra: Psychology</em>, <em>4</em>, 20.<br />
+            <a href="https://doi.org/10.1525/collabra.158">[paper]</a>
+            <a href="https://osf.io/xf6ug/">[materials]</a></p>
+            </div>
+            <div id="section-5" class="section level4">
+            <h4>2017</h4>
+            <p>Cristea, I. A., Naudet, F., Shanks, D. R., &amp;
+            Hardwicke, T. E. (2017). Post-retrieval Tetris should not be
+            likened to a ‘cognitive vaccine’. <em>Molecular
+            Psychiatry</em>, <em>23</em>, 1972-1973.<br />
+            <a href="https://dx.doi.org/10.1038/mp.2017.222">[paper]</a>
+            <a href="/files/Cristea_tetris_2017.pdf">[pdf]</a> <a
+            href="https://osf.io/nwz9j/">[data]</a> <a
+            href="https://osf.io/p3z58/">[analysis-code]</a></p>
+            </div>
+            <div id="section-6" class="section level4">
+            <h4>2016</h4>
+            <p>Kidwell, M. C., Lazarević, L. B., Baranski, E.,
+            Hardwicke, T. E., Piechowski, S., Falkenberg, L-S., Kennett,
+            C., Slowik, A., Sonnleitner, C., Hess-Holden, C., Errington,
+            T. M., Fiedler, S., &amp; Nosek, B. A. (2016). Badges to
+            acknowledge open practices: A simple, low cost, effective
+            method for increasing transparency. <em>PLOS Biology</em>,
+            <em>14</em>, e1002456.<br />
+            <a
+            href="https://dx.doi.org/10.1371/journal.pbio.1002456">[paper]</a>
+            <a href="https://osf.io/3upzh/">[preregistration]</a> <a
+            href="https://osf.io/8kt4b/">[materials]</a> <a
+            href="https://osf.io/u6g7t/">[data]</a> <a
+            href="https://osf.io/257kv/">[analysis-code]</a></p>
+            <p>Hardwicke, T. E. &amp; Shanks, D. R. (2016). Reply to
+            Walker and Stickgold: Proposed boundary conditions on memory
+            reconsolidation will require empirical verification.
+            <em>PNAS</em>, <em>113</em>, E3993-E3994.<br />
+            <a
+            href="https://dx.doi.org/10.1073/pnas.1608235113">[paper]</a>
+            <a href="/files/sequenceReconReply.pdf">[pdf]</a></p>
+            <p>Hardwicke, T. E., Mahdi, T., &amp; Shanks, D. R. (2016).
+            Post-retrieval new learning does not reliably induce human
+            memory updating via reconsolidation. <em>PNAS</em>,
+            <em>113</em>, 5206-5211.<br />
+            <a
+            href="https://dx.doi.org/10.1073/pnas.1601440113">[paper]</a>
+            <a href="/files/sequenceRecon.pdf">[pdf]</a> <a
+            href="https://osf.io/xyf34/">[materials]</a> <a
+            href="https://osf.io/bm47u/">[data]</a> <a
+            href="https://osf.io/se6gb/">[analysis-code]</a> <a
+            href="https://doi.org/10.1073/pnas.1607964113">[comment]</a>
+            <a
+            href="https://blogs.discovermagazine.com/neuroskeptic/2016/05/19/does-reconsolidation-exist/">[media]</a></p>
+            <p>Vadillo, M. A., Hardwicke, T. E., &amp; Shanks, D. R.
+            (2016). Selection bias, vote counting, and money priming
+            effects: A comment on Rohrer, Pashler, and Harris (2015) and
+            Vohs (2015). <em>Journal of Experimental Psychology:
+            General</em>, <em>145</em>, 655-663.<br />
+            <a href="https://dx.doi.org/10.1037/xge0000157">[paper]</a>
+            <a href="/files/moneyPriming.pdf">[pdf]</a> <a
+            href="https://osf.io/4e3gy/">[data]</a> <a
+            href="https://blogs.discovermagazine.com/neuroskeptic/2016/04/23/publication-bias-in-money-priming/">[media]</a></p>
+            <p>Hardwicke, T. E. (2016). Persistence and plasticity in
+            the human memory system: An empirical investigation of the
+            overwriting hypothesis. <em>PhD Thesis</em>.<br />
+            <a
+            href="https://dx.doi.org/10.17605/OSF.IO/R4C32">[thesis]</a>
+            <a href="https://osf.io/rxtgs/">[data]</a> <a
+            href="https://osf.io/rxtgs/">[analysis-code]</a> <a
+            href="https://osf.io/rxtgs/">[osf]</a></p>
+            </div>
+            <div id="pre-2016" class="section level4">
+            <h4>Before 2016</h4>
+            <p>Baker, R., Dexter, M., Hardwicke, T. E., Goldstone, A.,
+            &amp; Kourtzi, Z. (2014). Learning to predict: Exposure to
+            temporal sequences facilitates prediction of future events.
+            <em>Vision Research</em>, <em>99</em>, 124-133.<br />
+            <a
+            href="https://dx.doi.org/10.1016/j.visres.2013.10.017">[paper]</a>
+            <a href="/files/learningToPredict.pdf">[pdf]</a></p>
+            <p>Ludwig, C. J. H., Farrell, S., Ellis, L. A., Hardwicke,
+            T. E., &amp; Gilchrist, I. D. (2012). Context-gated
+            statistical learning and its role in visual-saccadic
+            decisions. <em>Journal of Experimental Psychology:
+            General</em>, <em>141</em>, 150-169.<br />
+            <a href="https://dx.doi.org/10.1037/a0024916">[paper]</a> <a
+            href="/files/contextGatedSL.pdf">[pdf]</a></p>
+            <p>Hardwicke, T. E., Jameel, L., Jones, M., Walczak, E. J.,
+            &amp; Magis-Weinberg, L. (2014). Only human: Scientists,
+            systems, and suspect statistics. <em>Opticon1826</em>,
+            <em>16</em>, 1-12.<br />
+            <a href="https://dx.doi.org/10.5334/opt.ch">[paper]</a> <a
+            href="/files/onlyHuman.pdf">[pdf]</a></p>
+            <p>Hardwicke, T. E. (2012). Biological Psychology.
+            <em>Psychology Learning &amp; Teaching</em>, <em>11</em>,
+            112-113.<br />
+            <a
+            href="https://dx.doi.org/10.2304/plat.2012.11.1.106">[paper]</a></p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-flex min-vh-100 d-block d-lg-none d-xl-none">
+      <div class="d-flex flex-row justify-content-center">
+        <div class="d-flex flex-col">
+          <div class="mx-auto">
+            <!-- removing image
+            <div class="p-3 mt-3 text-center">
+              <img src="" style="height:15rem" class="rounded">
+            </div>
+            -->
+            <div class="p-2 text-center top-marg">
+              <h2>Tom Hardwicke</h2>
+              <h4>Research Fellow</h4>
+              <h4>University of Melbourne</h4>
+            </div>
+            <hr style="width:60%;"/>
+
+            <div class="row justify-content-center align-items-center">
+              <div class="col-8 p-1 text-center">
+                <div class="list-group">
+                                    <a href=https://twitter.com/Tom_Hardwicke>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+                    </button>
+                  </a>
+                                    <a href=https://github.com/TomHardwicke>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      <svg aria-hidden="true" role="img" viewBox="0 0 496 512" style="height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+                    </button>
+                  </a>
+                                    <a href=https://osf.io/i8w73/>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      <i class="ai ai-osf"></i>
+                    </button>
+                  </a>
+                                    <a href=https://scholar.google.co.uk/citations?user=1zq46yYAAAAJ&amp;hl=en>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      <i class="ai ai-google-scholar"></i>
+                    </button>
+                  </a>
+                                    <a href=https://orcid.org/0000-0001-9485-4952>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M294.75 188.19h-45.92V342h47.47c67.62 0 83.12-51.34 83.12-76.91 0-41.64-26.54-76.9-84.67-76.9zM256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm-80.79 360.76h-29.84v-207.5h29.84zm-14.92-231.14a19.57 19.57 0 1 1 19.57-19.57 19.64 19.64 0 0 1-19.57 19.57zM300 369h-81V161.26h80.6c76.73 0 110.44 54.83 110.44 103.85C410 318.39 368.38 369 300 369z"/></svg>
+                    </button>
+                  </a>
+                                    <a href=mailto:hardwickete@gmail.com>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                    </button>
+                  </a>
+                                  </div>
+              </div>
+            </div>
+            <div class="p pt-4 px-5">
+              <div id="publications" class="section level2">
+              <h2>Publications</h2>
+              <p>[<a href="#section">2022</a>] [<a
+              href="#section-1">2021</a>] [<a
+              href="#section-2">2020</a>] [<a
+              href="#section-3">2019</a>] [<a
+              href="#section-4">2018</a>] [<a
+              href="#section-5">2017</a>] [<a
+              href="#section-6">2016</a>] [<a href="#pre-2016">Before
+              2016</a>]</p>
+              <div id="submitted" class="section level4">
+              <h4>Submitted</h4>
+              <p>Hardwicke, T. E., Salholz-Hillel, M., Malički, M.,
+              Szűcs, D., Bendixen, T., Ioannidis, J. P. A. (preprint).
+              Statistical guidance to authors at top-ranked journals
+              across scientific disciplines. <em>MetaArXiv</em>.<br />
+              <a
+              href="https://doi.org/10.31222/osf.io/q6ajt">[preprint]</a>
+              <a href="https://osf.io/cz9g3/">[preregistration]</a> <a
+              href="https://dx.doi.org/10.17605/OSF.IO/JRX7D">[data]</a>
+              <a
+              href="https://dx.doi.org/10.17605/OSF.IO/JRX7D">[materials]</a>
+              <a
+              href="https://dx.doi.org/10.17605/OSF.IO/JRX7D">[analysis-code]</a>
+              <a
+              href="https://doi.org/10.24433/CO.6131540.v1">[reproducible-container]</a></p>
+              <p>Fernández, L. M., Hardwicke, T. E., &amp; Vadillo, M.
+              A. (preprint). Retracted papers clinging on to life: An
+              observational study of post-retraction citations in
+              psychology. <em>PsyArXiv</em>.<br />
+              <a href="https://doi.org/hcht">[preprint]</a> <a
+              href="https://osf.io/t73rk/">[data]</a> <a
+              href="https://osf.io/t73rk/">[analysis-code]</a></p>
+              <p>Hardwicke, T. E., &amp; Wagenmakers, E.-J. (preprint).
+              Reducing bias, increasing transparency, and calibrating
+              confidence with preregistration. <em>MetaArXiv</em>.<br />
+              <a
+              href="https://doi.org/10.31222/osf.io/d7bcu">[preprint]</a></p>
+              </div>
+              <div id="section" class="section level4">
+              <h4>2022</h4>
+              <p>Hardwicke, T. E., Thibault, R. T., Kosie, J. E.,
+              Tzavella, L., Bendixen, T., Handcock, S. A. Köneke, V. E.,
+              Ioannidis, J. P. A. (in press). Post-publication critique
+              at top-ranked journals across scientific disciplines: A
+              cross-sectional assessment of policies and practice.
+              <em>Royal Society Open Science</em>.<br />
+              <a href="https://doi.org/hc7d">[preprint]</a> <a
+              href="https://osf.io/hjvnw/">[preregistration]</a> <a
+              href="https://osf.io/8b6jy/">[data]</a> <a
+              href="https://osf.io/8b6jy/">[materials]</a> <a
+              href="https://osf.io/8b6jy/">[analysis-code]</a> <a
+              href="https://doi.org/10.24433/CO.3805142.v1">[reproducible-container]</a></p>
+              <p>TARG Meta-Research Group &amp; Collaborators, Thibault,
+              R. T., Hardwicke, T. E., Clark, R. W. A., Pennington, C.
+              R., Nilsonne, G., O’Mahony, A., Drax, K., Thompson, J.,
+              Munafò, M. R. (in press). Discrepancy review: A
+              feasibility study of a novel peer review intervention to
+              reduce undisclosed discrepancies between registrations and
+              publications. <em>Royal Society Open Science</em>.<br />
+              <a href="https://doi.org/hdgv">[preprint]</a> <a
+              href="https://osf.io/w3bkt/">[preregistration]</a> <a
+              href="https://osf.io/25ebk/">[data]</a> <a
+              href="https://osf.io/5dh47/files">[materials]</a> <a
+              href="https://osf.io/25ebk/">[analysis-code]</a></p>
+              <p>Nosek, B. A., Hardwicke, T. E., Moshontz, H., Allard,
+              A., Corker, K. S., Dreber, A., Fidler, F., Hilgard, J.,
+              Kline Struhl, M., Nuijten, M., Rohrer, J., Romero, F.,
+              Scheel., A., Scherer, L., Schönbrodt, F., &amp; Vazire, S.
+              (2022). Replicability, robustness, and reproducibility in
+              psychological science. <em>Annual Review of
+              Psychology</em>, <em>73</em>, 719-748.<br />
+              <a
+              href="http://www.annualreviews.org/eprint/BEG4HHRDH6R6UHSGU3YR/full/10.1146/annurev-psych-020821-114157">[paper]</a>
+              <a href="https://doi.org/ftzw">[preprint]</a> <a
+              href="https://osf.io/7np92/">[preregistration]</a> <a
+              href="https://osf.io/7np92/">[materials]</a> <a
+              href="https://osf.io/7np92/">[data]</a> <a
+              href="https://osf.io/7np92/">[analysis-code]</a> <a
+              href="https://doi.org/10.24433/CO.4977248.v1">[reproducible-container]</a></p>
+              <p>Hardwicke, T. E., Thibault, R. T., Kosie, J. E.,
+              Wallach, J. D., Kidwell, M. C., &amp; Ioannidis, J. P. A.
+              (2022). Estimating the prevalence of transparency and
+              reproducibility-related research practices in psychology
+              (2014-2017). <em>Perspectives on Psychological
+              Science</em>, <em>17</em>(1), 239-251.<br />
+              <a
+              href="https://doi.org/10.1177%2F1745691620979806">[paper]</a>
+              <a
+              href="https://doi.org/10.31222/osf.io/9sz2y">[preprint]</a>
+              <a href="https://osf.io/q96eh/">[preregistration]</a> <a
+              href="https://osf.io/c89sy/">[materials]</a> <a
+              href="https://osf.io/5qmz7/">[data]</a> <a
+              href="https://osf.io/gfjtq/">[analysis-code]</a> <a
+              href="https://doi.org/10.24433/CO.1618143.v2">[reproducible-container]</a></p>
+              </div>
+              <div id="section-1" class="section level4">
+              <h4>2021</h4>
+              <p>Hardwicke, T. E., Szucs D., Thibault, R. T., Crüwell,
+              S., van den Akker, O. R., Nuijten, M. B., &amp; Ioannidis,
+              J. P. A. (2021). Citation patterns following a strongly
+              contradictory replication result: Four case studies from
+              psychology. <em>Advances in Methods and Practices in
+              Psychological Science</em>, <em>4</em>, 1-14.<br />
+              <a
+              href="https://doi.org/10.1177/25152459211040837">[paper]</a>
+              <a href="https://doi.org/ftx5">[preprint]</a> <a
+              href="https://osf.io/eh5qd/">[preregistration]</a> <a
+              href="https://osf.io/w8h2q/">[materials]</a> <a
+              href="https://osf.io/w8h2q/">[data]</a> <a
+              href="https://osf.io/w8h2q/">[analysis-code]</a> <a
+              href="https://doi.org/10.24433/CO.4225975.v3">[reproducible-container]</a></p>
+              <p>Hardwicke, T. E., Bohn, M., MacDonald, K., Hembacher,
+              E., Nuijten, M. B., Peloquin, B. N., deMayo, B., Long, B.,
+              Yoon, E. J., &amp; Frank, M. C. (2021). Analytic
+              reproducibility in articles receiving open data badges at
+              the journal Psychological Science: An observational study.
+              <em>Royal Society Open Science</em>, <em>8</em>,
+              201494.<br />
+              <a href="https://doi.org/fp2m">[paper]</a> <a
+              href="https://doi.org/d3mz">[preprint]</a> <a
+              href="https://osf.io/2cnkq/">[preregistration]</a> <a
+              href="https://osf.io/wy6a5/">[materials]</a> <a
+              href="https://osf.io/tfd8z/">[data]</a> <a
+              href="https://osf.io/tfd8z/">[analysis-code]</a> <a
+              href="https://doi.org/10.24433/CO.1796004.v3">[reproducible-container]</a></p>
+              </div>
+              <div id="section-2" class="section level4">
+              <h4>2020</h4>
+              <p>Hardwicke, T. E., &amp; Goodman, S. N. (2020). How
+              often do leading biomedical journals use statistical
+              experts to evaluate statistical methods? The results of a
+              survey. <em>PLOS ONE</em>, <em>15</em>, e0239598.<br />
+              <a
+              href="https://dx.doi.org/10.1371%2Fjournal.pone.0239598">[paper]</a>
+              <a
+              href="https://doi.org/10.31222/osf.io/z27u4">[preprint]</a>
+              <a
+              href="https://doi.org/10.17605/osf.io/p7g8w">[materials]</a>
+              <a href="https://doi.org/10.17605/osf.io/nscv3">[data]</a>
+              <a
+              href="https://doi.org/10.17605/osf.io/dy6kj">[analysis-code]</a>
+              <a
+              href="https://doi.org/10.24433/CO.3883021.v1">[reproducible-container]</a></p>
+              <p>Hardwicke, T. E., Serghiou, S., Janiaud, P., Danchev,
+              V., Crüwell, S., Goodman, S. N., &amp; Ioannidis, J. P. A.
+              (2020). Calibrating the scientific ecosystem through
+              meta-research. <em>Annual Review of Statistics and its
+              Application</em>, <em>7</em>, 11-37.<br />
+              <a
+              href="https://doi.org/10.1146/annurev-statistics-031219-041104">[paper]</a>
+              <a
+              href="https://doi.org/10.31222/osf.io/krb58">[preprint]</a></p>
+              <p>Ferrero, M., Hardwicke, T. E., Konstantinidis, E.,
+              &amp; Vadillo, M. A. (2020). The effectiveness of
+              refutation texts to correct misconceptions among
+              educators. <em>Journal of Experimental Psychology:
+              Applied</em>, <em>26</em>, 411-421.<br />
+              <a
+              href="https://psycnet.apa.org/doi/10.1037/xap0000258">[paper]</a>
+              <a
+              href="https://doi.org/10.31234/osf.io/ehybj">[preprint]</a>
+              <a href="https://osf.io/73a9y/">[materials]</a> <a
+              href="https://osf.io/sg6jy/">[data]</a> <a
+              href="https://osf.io/pxv5b/">[analysis-code]</a></p>
+              <p>Hardwicke, T. E., Wallach, J. D., Kidwell, M. C.,
+              Bendixen, T., Crüwell, S., &amp; Ioannidis, J. P. A.
+              (2020). An empirical assessment of transparency and
+              reproducibility-related research practices in the social
+              sciences (2014-2017). <em>Royal Society Open Science</em>,
+              <em>7</em>, 190806.<br />
+              <a
+              href="https://dx.doi.org/10.1098/rsos.190806">[paper]</a>
+              <a
+              href="https://doi.org/10.31222/osf.io/6uhg5">[preprint]</a>
+              <a href="https://osf.io/u5bk9/">[preregistration]</a> <a
+              href="https://osf.io/z9qtr/">[materials]</a> <a
+              href="https://osf.io/u9fw8/">[data]</a> <a
+              href="https://osf.io/sbrez/">[analysis-code]</a> <a
+              href="https://doi.org/10.24433/CO.2749769.v2">[reproducible-container]</a></p>
+              </div>
+              <div id="section-3" class="section level4">
+              <h4>2019</h4>
+              <p>Hardwicke, T. E., &amp; Ioannidis, J. P. A. (2019).
+              Petitions in scientific argumentation: dissecting the
+              request to retire statistical significance. <em>European
+              Journal of Clinical Investigation</em>, <em>49</em>,
+              e13162.<br />
+              <a href="https://doi.org/10.1111/eci.13162">[paper]</a> <a
+              href="https://doi.org/10.31222/osf.io/73xm5">[preprint]</a>
+              <a href="https://osf.io/hbkj3/">[preregistration]</a> <a
+              href="https://osf.io/u7nx4/">[materials]</a> <a
+              href="https://osf.io/6a94k/">[data]</a> <a
+              href="https://osf.io/jpztm/">[analysis-code]</a> <a
+              href="https://doi.org/10.24433/CO.3912558.v1">[reproducible-container]</a>
+              <a href="https://doi.org/10.1111/eci.13165">[comment1]</a>
+              <a href="https://doi.org/10.1111/eci.13170">[comment2]</a>
+              <a
+              href="https://doi.org/10.1111/eci.13176">[comment3]</a></p>
+              <p>Nosek, B. A., Beck, E. D., Campbell, L., Flake, J. K.,
+              Hardwicke, T. E., Mellor, D. T., van ’t Veer, A. E., &amp;
+              Vazire, S. (2019). Preregistration is hard, and
+              worthwhile. <em>Trends in Cognitive Sciences</em>,
+              <em>23</em>, 815-818.<br />
+              <a
+              href="https://doi.org/10.1016/j.tics.2019.07.009">[paper]</a>
+              <a
+              href="https://doi.org/10.31234/osf.io/wu3vs">[preprint]</a></p>
+              <p>Hardwicke, T. E., Frank, M. C., Vazire, S., &amp;
+              Goodman, S. N. (2019). Should psychology journals adopt
+              specialized statistical review? <em>Advances in Methods
+              and Practices in Psychological Science</em>, <em>2</em>,
+              240-249.<br />
+              <a
+              href="https://doi.org/10.1177/2515245919858428">[paper]</a>
+              <a href="https://osf.io/tmah8/files/">[materials]</a> <a
+              href="https://osf.io/nquws/files/">[data]</a> <a
+              href="https://osf.io/4zurk/files/">[analysis-code]</a> <a
+              href="https://doi.org/10.24433/CO.8241121.v3">[reproducible-container]</a>
+              <a
+              href="https://www.psychologicalscience.org/publications/observer/obsonline/strengthening-psychological-science-with-specialized-statistical-review.html?utm_source=tw&amp;utm_medium=social&amp;utm_campaign=AMPPSstatisticalreview">[media]</a></p>
+              </div>
+              <div id="section-4" class="section level4">
+              <h4>2018</h4>
+              <p>Hardwicke, T. E. &amp; Ioannidis, J. P. A. (2018).
+              Mapping the universe of registered reports. <em>Nature
+              Human Behaviour</em>, <em>2</em>, 793–796.<br />
+              <a href="https://rdcu.be/8eBP">[paper]</a> <a
+              href="https://osf.io/uzegq/">[materials]</a> <a
+              href="https://osf.io/rv7eb/">[data]</a> <a
+              href="https://osf.io/uzfjp/">[analysis-code]</a> <a
+              href="https://doi.org/10.24433/CO.03fa2564-3910-4982-9882-4f2fcec50385.v3">[reproducible-container]</a>
+              <a
+              href="https://dx.doi.org/10.17605/OSF.IO/FZPCY">[preprint]</a>
+              <a
+              href="https://doi.org/10.1038/s41562-018-0449-6">[comment]</a>
+              <a
+              href="https://doi.org/10.1038/s41562-018-0477-2">[comment2]</a></p>
+              <p>Hardwicke, T. E., Mathur, M. B., MacDonald, K.,
+              Nilsonne, G., Banks, G. C., Kidwell, M. C., Hofelich Mohr,
+              A., Clayton, E., Yoon, E. J., Henry Tessler, M., Lenne, R.
+              L., Altman, S., Long, B., &amp; Frank, M. C. (2018). Data
+              availability, reusability, and analytic reproducibility:
+              Evaluating the impact of a mandatory open data policy at
+              the journal Cognition. <em>Royal Society Open
+              Science</em>, <em>5</em>, 180448.<br />
+              <a
+              href="https://dx.doi.org/10.1098/rsos.180448">[paper]</a>
+              <a
+              href="https://dx.doi.org/10.17605/OSF.IO/39CFB">[preprint]</a>
+              <a href="https://osf.io/q4qy3/">[preregistration]</a> <a
+              href="https://osf.io/k2mdr/">[materials]</a> <a
+              href="https://osf.io/6s8b3/">[data]</a> <a
+              href="https://osf.io/wf3as/">[analysis-code]</a> <a
+              href="https://doi.org/10.24433/CO.abd8b483-c5e3-4382-a493-1fc5aecb0f1d.v2">[reproducible-container]</a>
+              <a
+              href="https://tomhardwicke.netlify.app/blog/psychology-reproducibility/">[blog1]</a>
+              <a
+              href="https://tomhardwicke.netlify.app/blog/open-data-reusability/">[blog2]</a>
+              <a
+              href="https://doi.org/10.1016/j.cognition.2018.10.008">[comment]</a></p>
+              <p>Hardwicke, T. E. &amp; Ioannidis, J. P. A. (2018).
+              Populating the Data Ark: An attempt to retrieve, preserve,
+              and liberate data from the most highly-cited psychology
+              and psychiatry articles. <em>PLOS ONE</em>, <em>13</em>,
+              e0201856.<br />
+              <a
+              href="https://doi.org/10.1371/journal.pone.0201856">[paper]</a>
+              <a href="https://osf.io/4dum6/">[materials]</a> <a
+              href="https://osf.io/r38qu/">[data]</a> <a
+              href="https://osf.io/7syrt/">[analysis-code]</a> <a
+              href="https://doi.org/10.24433/CO.241ffbb1-5b81-44bd-94f4-d066b62c5f7f.v2">[reproducible-container]</a>
+              <a
+              href="https://tomhardwicke.netlify.app/blog/attrition-scholarly-record/">[blog]</a>
+              <a
+              href="https://blogs.discovermagazine.com/neuroskeptic/2018/08/06/how-accessible-is-psychology-data/">[media]</a></p>
+              <p>Hardwicke, T. E., Henry Tessler, M., Peloquin, B.,
+              &amp; Frank, M. C. (2018). A Bayesian decision-making
+              framework for replication. <em>Behavioral and Brain
+              Sciences</em>, <em>41</em>, e132.<br />
+              <a
+              href="https://doi.org/10.1017/S0140525X18000675">[paper]</a>
+              <a
+              href="https://dx.doi.org/10.17605/OSF.IO/N3YAH">[preprint]</a></p>
+              <p>Klein, O., Hardwicke, T. E., Aust, F., Breuer, J.,
+              Danielsson, H., Hofelich Mohr, A., IJzerman, H., Nilsonne,
+              G., Vanpaemel, W., &amp; Frank, M. C. (2018). A practical
+              guide for transparency in psychological science.
+              <em>Collabra: Psychology</em>, <em>4</em>, 20.<br />
+              <a href="https://doi.org/10.1525/collabra.158">[paper]</a>
+              <a href="https://osf.io/xf6ug/">[materials]</a></p>
+              </div>
+              <div id="section-5" class="section level4">
+              <h4>2017</h4>
+              <p>Cristea, I. A., Naudet, F., Shanks, D. R., &amp;
+              Hardwicke, T. E. (2017). Post-retrieval Tetris should not
+              be likened to a ‘cognitive vaccine’. <em>Molecular
+              Psychiatry</em>, <em>23</em>, 1972-1973.<br />
+              <a
+              href="https://dx.doi.org/10.1038/mp.2017.222">[paper]</a>
+              <a href="/files/Cristea_tetris_2017.pdf">[pdf]</a> <a
+              href="https://osf.io/nwz9j/">[data]</a> <a
+              href="https://osf.io/p3z58/">[analysis-code]</a></p>
+              </div>
+              <div id="section-6" class="section level4">
+              <h4>2016</h4>
+              <p>Kidwell, M. C., Lazarević, L. B., Baranski, E.,
+              Hardwicke, T. E., Piechowski, S., Falkenberg, L-S.,
+              Kennett, C., Slowik, A., Sonnleitner, C., Hess-Holden, C.,
+              Errington, T. M., Fiedler, S., &amp; Nosek, B. A. (2016).
+              Badges to acknowledge open practices: A simple, low cost,
+              effective method for increasing transparency. <em>PLOS
+              Biology</em>, <em>14</em>, e1002456.<br />
+              <a
+              href="https://dx.doi.org/10.1371/journal.pbio.1002456">[paper]</a>
+              <a href="https://osf.io/3upzh/">[preregistration]</a> <a
+              href="https://osf.io/8kt4b/">[materials]</a> <a
+              href="https://osf.io/u6g7t/">[data]</a> <a
+              href="https://osf.io/257kv/">[analysis-code]</a></p>
+              <p>Hardwicke, T. E. &amp; Shanks, D. R. (2016). Reply to
+              Walker and Stickgold: Proposed boundary conditions on
+              memory reconsolidation will require empirical
+              verification. <em>PNAS</em>, <em>113</em>,
+              E3993-E3994.<br />
+              <a
+              href="https://dx.doi.org/10.1073/pnas.1608235113">[paper]</a>
+              <a href="/files/sequenceReconReply.pdf">[pdf]</a></p>
+              <p>Hardwicke, T. E., Mahdi, T., &amp; Shanks, D. R.
+              (2016). Post-retrieval new learning does not reliably
+              induce human memory updating via reconsolidation.
+              <em>PNAS</em>, <em>113</em>, 5206-5211.<br />
+              <a
+              href="https://dx.doi.org/10.1073/pnas.1601440113">[paper]</a>
+              <a href="/files/sequenceRecon.pdf">[pdf]</a> <a
+              href="https://osf.io/xyf34/">[materials]</a> <a
+              href="https://osf.io/bm47u/">[data]</a> <a
+              href="https://osf.io/se6gb/">[analysis-code]</a> <a
+              href="https://doi.org/10.1073/pnas.1607964113">[comment]</a>
+              <a
+              href="https://blogs.discovermagazine.com/neuroskeptic/2016/05/19/does-reconsolidation-exist/">[media]</a></p>
+              <p>Vadillo, M. A., Hardwicke, T. E., &amp; Shanks, D. R.
+              (2016). Selection bias, vote counting, and money priming
+              effects: A comment on Rohrer, Pashler, and Harris (2015)
+              and Vohs (2015). <em>Journal of Experimental Psychology:
+              General</em>, <em>145</em>, 655-663.<br />
+              <a
+              href="https://dx.doi.org/10.1037/xge0000157">[paper]</a>
+              <a href="/files/moneyPriming.pdf">[pdf]</a> <a
+              href="https://osf.io/4e3gy/">[data]</a> <a
+              href="https://blogs.discovermagazine.com/neuroskeptic/2016/04/23/publication-bias-in-money-priming/">[media]</a></p>
+              <p>Hardwicke, T. E. (2016). Persistence and plasticity in
+              the human memory system: An empirical investigation of the
+              overwriting hypothesis. <em>PhD Thesis</em>.<br />
+              <a
+              href="https://dx.doi.org/10.17605/OSF.IO/R4C32">[thesis]</a>
+              <a href="https://osf.io/rxtgs/">[data]</a> <a
+              href="https://osf.io/rxtgs/">[analysis-code]</a> <a
+              href="https://osf.io/rxtgs/">[osf]</a></p>
+              </div>
+              <div id="pre-2016" class="section level4">
+              <h4>Before 2016</h4>
+              <p>Baker, R., Dexter, M., Hardwicke, T. E., Goldstone, A.,
+              &amp; Kourtzi, Z. (2014). Learning to predict: Exposure to
+              temporal sequences facilitates prediction of future
+              events. <em>Vision Research</em>, <em>99</em>,
+              124-133.<br />
+              <a
+              href="https://dx.doi.org/10.1016/j.visres.2013.10.017">[paper]</a>
+              <a href="/files/learningToPredict.pdf">[pdf]</a></p>
+              <p>Ludwig, C. J. H., Farrell, S., Ellis, L. A., Hardwicke,
+              T. E., &amp; Gilchrist, I. D. (2012). Context-gated
+              statistical learning and its role in visual-saccadic
+              decisions. <em>Journal of Experimental Psychology:
+              General</em>, <em>141</em>, 150-169.<br />
+              <a href="https://dx.doi.org/10.1037/a0024916">[paper]</a>
+              <a href="/files/contextGatedSL.pdf">[pdf]</a></p>
+              <p>Hardwicke, T. E., Jameel, L., Jones, M., Walczak, E.
+              J., &amp; Magis-Weinberg, L. (2014). Only human:
+              Scientists, systems, and suspect statistics.
+              <em>Opticon1826</em>, <em>16</em>, 1-12.<br />
+              <a href="https://dx.doi.org/10.5334/opt.ch">[paper]</a> <a
+              href="/files/onlyHuman.pdf">[pdf]</a></p>
+              <p>Hardwicke, T. E. (2012). Biological Psychology.
+              <em>Psychology Learning &amp; Teaching</em>, <em>11</em>,
+              112-113.<br />
+              <a
+              href="https://dx.doi.org/10.2304/plat.2012.11.1.106">[paper]</a></p>
+              </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+      <!--radix_placeholder_site_after_body-->
+      <!--/radix_placeholder_site_after_body-->
+      <!--radix_placeholder_navigation_after_body-->
+      <!--/radix_placeholder_navigation_after_body-->
+  
+  </body>
+</html>
