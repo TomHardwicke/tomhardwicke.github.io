@@ -1,7 +1,7 @@
 ---
 title: "Tom Hardwicke"
 position: "Research Fellow"
-university: "University of Melbourne"
+university: "University of Amsterdam"
 image: ""
 links:
   - label: '`r fontawesome::fa("twitter")`'
