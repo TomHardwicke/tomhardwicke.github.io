@@ -11,5 +11,5 @@ navbar:
     - text: "Publications"
       href: '#publications'
     - text: "CV"
-      href: hardwicke_cv.pdf
+      href: files/hardwicke_cv.pdf
 output: distill::distill_article

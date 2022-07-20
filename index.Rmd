@@ -104,7 +104,7 @@ Klein, O., Hardwicke, T. E., Aust, F., Breuer, J., Danielsson, H., Hofelich Mohr
 #### 2017
 
 Cristea, I. A., Naudet, F., Shanks, D. R., & Hardwicke, T. E. (2017). Post-retrieval Tetris should not be likened to a ‘cognitive vaccine’. *Molecular Psychiatry*, *23*, 1972-1973.  
-[[paper]](https://dx.doi.org/10.1038/mp.2017.222) [[pdf]](/files/Cristea_tetris_2017.pdf) [[data]](https://osf.io/nwz9j/) [[analysis-code]](https://osf.io/p3z58/)
+[[paper]](https://dx.doi.org/10.1038/mp.2017.222) [[pdf]](files/Cristea_tetris_2017.pdf) [[data]](https://osf.io/nwz9j/) [[analysis-code]](https://osf.io/p3z58/)
 
 #### 2016
 
@@ -112,13 +112,13 @@ Kidwell, M. C., Lazarević, L. B., Baranski, E., Hardwicke, T. E., Piechowski, S
 [[paper]](https://dx.doi.org/10.1371/journal.pbio.1002456) [[preregistration]](https://osf.io/3upzh/) [[materials]](https://osf.io/8kt4b/) [[data]](https://osf.io/u6g7t/) [[analysis-code]](https://osf.io/257kv/)
 
 Hardwicke, T. E. & Shanks, D. R. (2016). Reply to Walker and Stickgold: Proposed boundary conditions on memory reconsolidation will require empirical verification. *PNAS*, *113*, E3993-E3994.  
-[[paper]](https://dx.doi.org/10.1073/pnas.1608235113) [[pdf]](/files/sequenceReconReply.pdf)
+[[paper]](https://dx.doi.org/10.1073/pnas.1608235113) [[pdf]](files/sequenceReconReply.pdf)
 
 Hardwicke, T. E., Mahdi, T., & Shanks, D. R. (2016). Post-retrieval new learning does not reliably induce human memory updating via reconsolidation. *PNAS*, *113*, 5206-5211.  
-[[paper]](https://dx.doi.org/10.1073/pnas.1601440113) [[pdf]](/files/sequenceRecon.pdf) [[materials]](https://osf.io/xyf34/) [[data]](https://osf.io/bm47u/) [[analysis-code]](https://osf.io/se6gb/) [[comment]](https://doi.org/10.1073/pnas.1607964113) [[media]](https://blogs.discovermagazine.com/neuroskeptic/2016/05/19/does-reconsolidation-exist/)
+[[paper]](https://dx.doi.org/10.1073/pnas.1601440113) [[pdf]](files/sequenceRecon.pdf) [[materials]](https://osf.io/xyf34/) [[data]](https://osf.io/bm47u/) [[analysis-code]](https://osf.io/se6gb/) [[comment]](https://doi.org/10.1073/pnas.1607964113) [[media]](https://blogs.discovermagazine.com/neuroskeptic/2016/05/19/does-reconsolidation-exist/)
 
 Vadillo, M. A., Hardwicke, T. E., & Shanks, D. R. (2016). Selection bias, vote counting, and money priming effects: A comment on Rohrer, Pashler, and Harris (2015) and Vohs (2015). *Journal of Experimental Psychology: General*, *145*, 655-663.  
-[[paper]](https://dx.doi.org/10.1037/xge0000157) [[pdf]](/files/moneyPriming.pdf) [[data]](https://osf.io/4e3gy/) [[media]](https://blogs.discovermagazine.com/neuroskeptic/2016/04/23/publication-bias-in-money-priming/)
+[[paper]](https://dx.doi.org/10.1037/xge0000157) [[pdf]](files/moneyPriming.pdf) [[data]](https://osf.io/4e3gy/) [[media]](https://blogs.discovermagazine.com/neuroskeptic/2016/04/23/publication-bias-in-money-priming/)
 
 Hardwicke, T. E. (2016). Persistence and plasticity in the human memory system: An empirical investigation of the overwriting hypothesis. *PhD Thesis*.  
 [[thesis]](https://dx.doi.org/10.17605/OSF.IO/R4C32) [[data]](https://osf.io/rxtgs/) [[analysis-code]](https://osf.io/rxtgs/) [[osf]](https://osf.io/rxtgs/)
@@ -126,13 +126,13 @@ Hardwicke, T. E. (2016). Persistence and plasticity in the human memory system: 
 #### Before 2016 {#pre-2016}
 
 Baker, R., Dexter, M., Hardwicke, T. E., Goldstone, A., & Kourtzi, Z. (2014). Learning to predict: Exposure to temporal sequences facilitates prediction of future events. *Vision Research*, *99*, 124-133.  
-[[paper]](https://dx.doi.org/10.1016/j.visres.2013.10.017) [[pdf]](/files/learningToPredict.pdf)
+[[paper]](https://dx.doi.org/10.1016/j.visres.2013.10.017) [[pdf]](files/learningToPredict.pdf)
 
 Ludwig, C. J. H., Farrell, S., Ellis, L. A., Hardwicke, T. E., & Gilchrist, I. D. (2012). Context-gated statistical learning and its role in visual-saccadic decisions. *Journal of Experimental Psychology: General*, *141*, 150-169.  
-[[paper]](https://dx.doi.org/10.1037/a0024916) [[pdf]](/files/contextGatedSL.pdf)
+[[paper]](https://dx.doi.org/10.1037/a0024916) [[pdf]](files/contextGatedSL.pdf)
 
 Hardwicke, T. E., Jameel, L., Jones, M., Walczak, E. J., & Magis-Weinberg, L. (2014). Only human: Scientists, systems, and suspect statistics. *Opticon1826*, *16*, 1-12.  
-[[paper]](https://dx.doi.org/10.5334/opt.ch) [[pdf]](/files/onlyHuman.pdf)
+[[paper]](https://dx.doi.org/10.5334/opt.ch) [[pdf]](files/onlyHuman.pdf)
 
 Hardwicke, T. E. (2012). Biological Psychology. *Psychology Learning & Teaching*, *11*, 112-113.  
 [[paper]](https://dx.doi.org/10.2304/plat.2012.11.1.106)
