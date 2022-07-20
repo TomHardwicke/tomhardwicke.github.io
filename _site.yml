@@ -3,7 +3,7 @@ title: "Tom Hardwicke"
 description: |
   Tom Hardwicke
 output_dir: "."     # root of master or main branch
-theme: mystyle.css
+theme: theme.css
 navbar:
   right:
     - text: "Home"
