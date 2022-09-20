@@ -1,7 +1,7 @@
 ---
 title: "Tom Hardwicke"
 position: "Research Fellow"
-university: "University of Amsterdam"
+university: "University of Melbourne"
 image: ""
 links:
   - label: '`r fontawesome::fa("twitter")`'
@@ -39,7 +39,7 @@ Hardwicke, T. E., & Wagenmakers, E.-J. (preprint). Reducing bias, increasing tra
 #### 2022
 
 Hardwicke, T. E., Thibault, R. T., Kosie, J. E., Tzavella, L., Bendixen, T., Handcock, S. A. Köneke, V. E., Ioannidis, J. P. A. (2022). Post-publication critique at top-ranked journals across scientific disciplines: A cross-sectional assessment of policies and practice. *Royal Society Open Science*, *9*, 220139.  
-[[paper]](https://dx.doi.org/10.1098/rsos.220139) [[preprint]](https://doi.org/hc7d) [[preregistration]](https://osf.io/hjvnw/) [[data]](https://osf.io/8b6jy/) [[materials]](https://osf.io/8b6jy/) [[analysis-code]](https://osf.io/8b6jy/) [[reproducible-container]](https://doi.org/10.24433/CO.3805142.v2) [[media1]](https://www.science.org/content/article/news-glance-new-gene-therapy-europe-s-drought-and-black-hole-s-photon-ring) [[media2]](https://www.timeshighereducation.com/news/worlds-top-journals-limiting-critiques)
+[[paper]](https://dx.doi.org/10.1098/rsos.220139) [[preprint]](https://doi.org/hc7d) [[preregistration]](https://osf.io/hjvnw/) [[data]](https://osf.io/8b6jy/) [[materials]](https://osf.io/8b6jy/) [[analysis-code]](https://osf.io/8b6jy/) [[reproducible-container]](https://doi.org/10.24433/CO.3805142.v2) [[media1]](https://www.science.org/content/article/news-glance-new-gene-therapy-europe-s-drought-and-black-hole-s-photon-ring) [[media2]](https://www.timeshighereducation.com/news/worlds-top-journals-limiting-critiques) [[media3]](https://www.science.org/content/article/you-ve-spotted-flaw-top-journal-s-paper-good-luck-getting-your-critique-published)
 
 TARG Meta-Research Group & Collaborators [Thibault, R. T., Hardwicke, T. E., Clark, R. W. A., Pennington, C. R., Nilsonne, G., O'Mahony, A., Drax, K., Thompson, J., Munafò, M. R.] (2022). Discrepancy review: A feasibility study of a novel peer review intervention to reduce undisclosed discrepancies between registrations and publications. *Royal Society Open Science*, *9*, 220142.  
 [[paper]](https://doi.org/10.1098/rsos.220142) [[preprint]](https://doi.org/hdgv) [[preregistration]](https://osf.io/w3bkt/) [[data]](https://osf.io/25ebk/) [[materials]](https://osf.io/5dh47/files) [[analysis-code]](https://osf.io/25ebk/) [[reproducible-container]](https://doi.org/10.24433/CO.9942414.v1)
