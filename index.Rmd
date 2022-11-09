@@ -18,7 +18,7 @@ links:
     url: "mailto:hardwickete@gmail.com"
 site: distill::distill_website
 output:
-  postcards::trestles_mod
+  postcards::solana_mod
 ---
  
 ## Publications
