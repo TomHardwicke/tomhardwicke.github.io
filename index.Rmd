@@ -25,18 +25,18 @@ output:
 
 [[2022]] [[2021]] [[2020]] [[2019]] [[2018]] [[2017]] [[2016]] [[Before 2016](#pre-2016)]
 
-#### Submitted
+#### Preprints
 
 Fernández, L. M., Hardwicke, T. E., & Vadillo, M. A. (preprint). Retracted papers clinging on to life: An observational study of post-retraction citations in psychology. *PsyArXiv*.  
 [[preprint]](https://doi.org/hcht) [[data]](https://osf.io/t73rk/) [[analysis-code]](https://osf.io/t73rk/)
 
-Hardwicke, T. E., & Wagenmakers, E.-J. (preprint). Reducing bias, increasing transparency, and calibrating confidence with preregistration. *MetArXiv*.  
-[[preprint]](https://doi.org/10.31222/osf.io/d7bcu)
-
 #### 2022
 
+Hardwicke, T. E., & Wagenmakers, E.-J. (in press). Reducing bias, increasing transparency, and calibrating confidence with preregistration. *Nature Human Behaviour*.  
+[[preprint]](https://doi.org/10.31222/osf.io/d7bcu)
+
 Hardwicke, T. E., Salholz-Hillel, M., Malički, M., Szűcs, D., Bendixen, T., Ioannidis, J. P. A. (in press). Statistical guidance to authors at top-ranked journals across scientific disciplines. *The American Statistician*.  
-[[preprint]](https://doi.org/10.31222/osf.io/q6ajt) [[preregistration]](https://osf.io/cz9g3/) [[data]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[materials]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[analysis-code]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[reproducible-container]](https://doi.org/10.24433/CO.6131540.v1)
+[[paper]](https://doi.org/10.1080/00031305.2022.2143897) [[preprint]](https://doi.org/10.31222/osf.io/q6ajt) [[preregistration]](https://osf.io/cz9g3/) [[data]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[materials]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[analysis-code]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[reproducible-container]](https://doi.org/10.24433/CO.6131540.v1)
 
 Hardwicke, T. E., Thibault, R. T., Kosie, J. E., Tzavella, L., Bendixen, T., Handcock, S. A. Köneke, V. E., Ioannidis, J. P. A. (2022). Post-publication critique at top-ranked journals across scientific disciplines: A cross-sectional assessment of policies and practice. *Royal Society Open Science*, *9*, 220139.  
 [[paper]](https://dx.doi.org/10.1098/rsos.220139) [[preprint]](https://doi.org/hc7d) [[preregistration]](https://osf.io/hjvnw/) [[data]](https://osf.io/8b6jy/) [[materials]](https://osf.io/8b6jy/) [[analysis-code]](https://osf.io/8b6jy/) [[reproducible-container]](https://doi.org/10.24433/CO.3805142.v2) [[media1]](https://www.science.org/content/article/news-glance-new-gene-therapy-europe-s-drought-and-black-hole-s-photon-ring) [[media2]](https://www.timeshighereducation.com/news/worlds-top-journals-limiting-critiques) [[media3]](https://www.science.org/content/article/you-ve-spotted-flaw-top-journal-s-paper-good-luck-getting-your-critique-published)
