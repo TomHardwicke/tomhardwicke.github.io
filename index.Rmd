@@ -2,7 +2,7 @@
 title: "Tom Hardwicke"
 position: "Research Fellow"
 university: "University of Melbourne"
-image: ""
+image: "files/me.jpeg"
 site: distill::distill_website
 output:
   postcards::solana_mod
