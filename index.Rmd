@@ -3,27 +3,15 @@ title: "Tom Hardwicke"
 position: "Research Fellow"
 university: "University of Melbourne"
 image: ""
-links:
-  - label: '`r fontawesome::fa("twitter")`'
-    url: "https://twitter.com/Tom_Hardwicke"
-  - label: '`r fontawesome::fa("github")`'
-    url: "https://github.com/TomHardwicke"
-  - label: '<i class="ai ai-osf"></i>'
-    url: "https://osf.io/i8w73/"
-  - label: '<i class="ai ai-google-scholar"></i>'
-    url: "https://scholar.google.co.uk/citations?user=1zq46yYAAAAJ&hl=en"
-  - label: '`r fontawesome::fa("orcid")`'
-    url: "https://orcid.org/0000-0001-9485-4952"
-  - label: '`r fontawesome::fa("envelope")`'
-    url: "mailto:hardwickete@gmail.com"
 site: distill::distill_website
 output:
   postcards::solana_mod
 ---
- 
+<br>
+
 ## Publications
 
-[[2022]] [[2021]] [[2020]] [[2019]] [[2018]] [[2017]] [[2016]] [[Before 2016](#pre-2016)]
+<br>
 
 #### Preprints
 
