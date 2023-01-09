@@ -8,6 +8,8 @@ navbar:
   right:
     - text: "Home"
       href: index.html
+    - text: "Bio"
+      href: bio.html
     - text: "CV"
       href: files/hardwicke_cv.pdf
     - text: "Contact"
