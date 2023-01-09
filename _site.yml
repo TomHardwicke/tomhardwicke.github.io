@@ -10,6 +10,8 @@ navbar:
       href: index.html
     - text: "Bio"
       href: bio.html
+    - text: "Publications"
+      href: publications.html
     - text: "CV"
       href: files/hardwicke_cv.pdf
     - text: "Contact"
