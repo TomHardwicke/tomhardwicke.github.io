@@ -18,10 +18,12 @@ output:
 Fernández, L. M., Hardwicke, T. E., & Vadillo, M. A. (preprint). Retracted papers clinging on to life: An observational study of post-retraction citations in psychology. *PsyArXiv*.  
 [[preprint]](https://doi.org/hcht) [[data]](https://osf.io/t73rk/) [[analysis-code]](https://osf.io/t73rk/)
 
-#### 2022
+#### 2023
 
-Hardwicke, T. E., & Wagenmakers, E.-J. (in press). Reducing bias, increasing transparency, and calibrating confidence with preregistration. *Nature Human Behaviour*.  
-[[preprint]](https://doi.org/10.31222/osf.io/d7bcu)
+Hardwicke, T. E., & Wagenmakers, E.-J. (2023). Reducing bias, increasing transparency, and calibrating confidence with preregistration. *Nature Human Behaviour*, *7*, 15-26.
+[[paper]](https://doi.org/10.1038/s41562-022-01497-2) [[preprint]](https://doi.org/10.31222/osf.io/d7bcu)
+
+#### 2022
 
 Hardwicke, T. E., Salholz-Hillel, M., Malički, M., Szűcs, D., Bendixen, T., Ioannidis, J. P. A. (in press). Statistical guidance to authors at top-ranked journals across scientific disciplines. *The American Statistician*.  
 [[paper]](https://doi.org/10.1080/00031305.2022.2143897) [[preprint]](https://doi.org/10.31222/osf.io/q6ajt) [[preregistration]](https://osf.io/cz9g3/) [[data]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[materials]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[analysis-code]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[reproducible-container]](https://doi.org/10.24433/CO.6131540.v1)
