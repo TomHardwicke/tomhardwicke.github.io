@@ -21,7 +21,7 @@ Fernández, L. M., Hardwicke, T. E., & Vadillo, M. A. (preprint). Retracted pape
 #### 2023
 
 Hardwicke, T. E., & Wagenmakers, E.-J. (2023). Reducing bias, increasing transparency, and calibrating confidence with preregistration. *Nature Human Behaviour*, *7*, 15-26.
-[[paper]](https://doi.org/10.1038/s41562-022-01497-2) [[preprint]](https://doi.org/10.31222/osf.io/d7bcu)
+[[paper]](https://rdcu.be/c4h3a) [[preprint]](https://doi.org/10.31222/osf.io/d7bcu)
 
 #### 2022
 
