@@ -18,6 +18,8 @@ output:
 Fernández, L. M., Hardwicke, T. E., & Vadillo, M. A. (preprint). Retracted papers clinging on to life: An observational study of post-retraction citations in psychology. *PsyArXiv*.  
 [[preprint]](https://doi.org/hcht) [[data]](https://osf.io/t73rk/) [[analysis-code]](https://osf.io/t73rk/)
 
+Thibault, R. T., Kovacs, M., Hardwicke, T. E., Sarafoglou, A., Ioannidis, J. P., & Munafo, M. R. (preprint). Reducing bias in secondary data analysis via an Explore and Confirm Analysis Workflow (ECAW): A proposal and survey of observational researchers. *MetaArXiv*. [[preprint]](https://doi.org/10.31222/osf.io/md2xz) [[preregistration]](https://osf.io/g2fw5) [[data]](https://osf.io/x2dpn) [[materials]](https://osf.io/x2dpn) [[analysis-code]](https://osf.io/x2dpn)
+
 #### 2023
 
 Hardwicke, T. E., & Wagenmakers, E.-J. (2023). Reducing bias, increasing transparency, and calibrating confidence with preregistration. *Nature Human Behaviour*, *7*, 15-26.  
