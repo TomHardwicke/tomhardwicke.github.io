@@ -25,13 +25,13 @@ Thibault, R. T., Kovacs, M., Hardwicke, T. E., Sarafoglou, A., Ioannidis, J. P.,
 
 #### 2023
 
+Hardwicke, T. E., Salholz-Hillel, M., Malički, M., Szűcs, D., Bendixen, T., Ioannidis, J. P. A. (2023). Statistical guidance to authors at top-ranked journals across scientific disciplines. *The American Statistician*. *77*(3), 239-247.  
+[[paper]](https://doi.org/10.1080/00031305.2022.2143897) [[preprint]](https://doi.org/10.31222/osf.io/q6ajt) [[preregistration]](https://osf.io/cz9g3/) [[data]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[materials]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[analysis-code]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[reproducible-container]](https://doi.org/10.24433/CO.6131540.v1)
+
 Hardwicke, T. E., & Wagenmakers, E.-J. (2023). Reducing bias, increasing transparency, and calibrating confidence with preregistration. *Nature Human Behaviour*, *7*, 15-26.  
 [[paper]](https://rdcu.be/c4h3a) [[preprint]](https://doi.org/10.31222/osf.io/d7bcu)
 
 #### 2022
-
-Hardwicke, T. E., Salholz-Hillel, M., Malički, M., Szűcs, D., Bendixen, T., Ioannidis, J. P. A. (in press). Statistical guidance to authors at top-ranked journals across scientific disciplines. *The American Statistician*.  
-[[paper]](https://doi.org/10.1080/00031305.2022.2143897) [[preprint]](https://doi.org/10.31222/osf.io/q6ajt) [[preregistration]](https://osf.io/cz9g3/) [[data]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[materials]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[analysis-code]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[reproducible-container]](https://doi.org/10.24433/CO.6131540.v1)
 
 Hardwicke, T. E., Thibault, R. T., Kosie, J. E., Tzavella, L., Bendixen, T., Handcock, S. A. Köneke, V. E., Ioannidis, J. P. A. (2022). Post-publication critique at top-ranked journals across scientific disciplines: A cross-sectional assessment of policies and practice. *Royal Society Open Science*, *9*, 220139.  
 [[paper]](https://dx.doi.org/10.1098/rsos.220139) [[preprint]](https://doi.org/hc7d) [[preregistration]](https://osf.io/hjvnw/) [[data]](https://osf.io/8b6jy/) [[materials]](https://osf.io/8b6jy/) [[analysis-code]](https://osf.io/8b6jy/) [[reproducible-container]](https://doi.org/10.24433/CO.3805142.v2) [[media1]](https://www.science.org/content/article/news-glance-new-gene-therapy-europe-s-drought-and-black-hole-s-photon-ring) [[media2]](https://www.timeshighereducation.com/news/worlds-top-journals-limiting-critiques) [[media3]](https://www.science.org/content/article/you-ve-spotted-flaw-top-journal-s-paper-good-luck-getting-your-critique-published)
