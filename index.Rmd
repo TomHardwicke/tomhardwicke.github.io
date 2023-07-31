@@ -25,11 +25,11 @@ Thibault, R. T., Kovacs, M., Hardwicke, T. E., Sarafoglou, A., Ioannidis, J. P.,
 
 #### 2023
 
-Hardwicke, T. E., Salholz-Hillel, M., Malički, M., Szűcs, D., Bendixen, T., Ioannidis, J. P. A. (2023). Statistical guidance to authors at top-ranked journals across scientific disciplines. *The American Statistician*. *77*(3), 239-247.  
-[[paper]](https://doi.org/10.1080/00031305.2022.2143897) [[preprint]](https://doi.org/10.31222/osf.io/q6ajt) [[preregistration]](https://osf.io/cz9g3/) [[data]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[materials]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[analysis-code]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[reproducible-container]](https://doi.org/10.24433/CO.6131540.v1)
-
 Hardwicke, T. E., & Wagenmakers, E.-J. (2023). Reducing bias, increasing transparency, and calibrating confidence with preregistration. *Nature Human Behaviour*, *7*, 15-26.  
 [[paper]](https://rdcu.be/c4h3a) [[preprint]](https://doi.org/10.31222/osf.io/d7bcu)
+
+Hardwicke, T. E., Salholz-Hillel, M., Malički, M., Szűcs, D., Bendixen, T., Ioannidis, J. P. A. (2023). Statistical guidance to authors at top-ranked journals across scientific disciplines. *The American Statistician*. *77*(3), 239-247.  
+[[paper]](https://doi.org/10.1080/00031305.2022.2143897) [[preprint]](https://doi.org/10.31222/osf.io/q6ajt) [[preregistration]](https://osf.io/cz9g3/) [[data]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[materials]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[analysis-code]](https://dx.doi.org/10.17605/OSF.IO/JRX7D) [[reproducible-container]](https://doi.org/10.24433/CO.6131540.v1)
 
 #### 2022
 
