@@ -15,6 +15,9 @@ output:
 
 #### Preprints
 
+Dulitzki, C., Crane, S. M., Hardwicke, T. E., & Ioannidis, J. P. A. (preprint). Expanding the Data Ark: An attempt to make the data from highly cited social science papers publicly available. *MetaArXiv*.  
+[[preprint]](https://osf.io/preprints/metaarxiv/w9crz/) [[data]](https://osf.io/3kuwq/) [[preregistration]](https://osf.io/697wx) [[materials]](https://osf.io/3kuwq/) [[analysis-code]](https://osf.io/3kuwq/) [[reproducible-container]](https://doi.org/10.24433/CO.5136309.v2)
+
 Frank, M. C., Braginsky, M., Cachia, J., Coles, N., Hardwicke, T. E., Hawkins, R., Mathur, M., & Williams, R. (in preparation). Experimentology: An open science approach to experimental psychology methods. MIT Press.  
 [[open access book]](https://experimentology.io)
 
