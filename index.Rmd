@@ -13,7 +13,10 @@ output:
 
 <br>
 
-#### Preprints
+#### Preprints / Stage One Registered Reports
+
+Hardwicke, T. E., Schiavone, S., Clarke, B., Vazire, S. (accepted in principle). Finding the right words to evaluate research: An empirical appraisal of eLife’s assessment vocabulary [Stage One Registered Report]. *Peer Community in Registered Reports*.  
+[[preregistration]](https://doi.org/10.17605/OSF.IO/MKBTP)
 
 Dulitzki, C., Crane, S. M., Hardwicke, T. E., & Ioannidis, J. P. A. (preprint). Expanding the Data Ark: An attempt to make the data from highly cited social science papers publicly available. *MetaArXiv*.  
 [[preprint]](https://osf.io/preprints/metaarxiv/w9crz/) [[data]](https://osf.io/3kuwq/) [[preregistration]](https://osf.io/697wx) [[materials]](https://osf.io/3kuwq/) [[analysis-code]](https://osf.io/3kuwq/) [[reproducible-container]](https://doi.org/10.24433/CO.5136309.v2)
