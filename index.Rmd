@@ -30,7 +30,7 @@ Fernández, L. M., Hardwicke, T. E., & Vadillo, M. A. (preprint). Retracted pape
 #### 2023
 
 Thibault, R. T., Kovacs, M., Hardwicke, T. E., Sarafoglou, A., Ioannidis, J. P., & Munafo, M. R. (2023). Reducing bias in secondary data analysis via an Explore and Confirm Analysis Workflow (ECAW): A proposal and survey of observational researchers. *Royal Society Open Science*, *10*, 230568.  
-[[preprint]](https://doi.org/10.31222/osf.io/md2xz) [[preregistration]](https://osf.io/g2fw5) [[data]](https://osf.io/x2dpn) [[materials]](https://osf.io/x2dpn) [[analysis-code]](https://osf.io/x2dpn)
+[[paper]](https://doi.org/10.1098/rsos.230568) [[preprint]](https://doi.org/10.31222/osf.io/md2xz) [[preregistration]](https://osf.io/g2fw5) [[data]](https://osf.io/x2dpn) [[materials]](https://osf.io/x2dpn) [[analysis-code]](https://osf.io/x2dpn)
 
 Hardwicke, T. E., & Wagenmakers, E.-J. (2023). Reducing bias, increasing transparency, and calibrating confidence with preregistration. *Nature Human Behaviour*, *7*, 15-26.  
 [[paper]](https://rdcu.be/c4h3a) [[preprint]](https://doi.org/10.31222/osf.io/d7bcu)
