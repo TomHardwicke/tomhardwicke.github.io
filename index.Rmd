@@ -15,8 +15,8 @@ output:
 
 #### Preprints / Stage One Registered Reports
 
-Hardwicke, T. E., Schiavone, S., Clarke, B., Vazire, S. (accepted in principle). Finding the right words to evaluate research: An empirical appraisal of eLife’s assessment vocabulary [Stage One Registered Report]. *Peer Community in Registered Reports*.  
-[[preregistration]](https://doi.org/10.17605/OSF.IO/MKBTP)
+Hardwicke, T. E., Schiavone, S., Clarke, B., Vazire, S. (Registered Report accepted in principle). Finding the right words to evaluate research: An empirical appraisal of eLife’s assessment vocabulary. *PLOS Biology*.  
+[[preprint]](https://doi.org/10.1101/2023.09.18.558287) [[preregistration]](https://doi.org/10.17605/OSF.IO/MKBTP) [[data]](https://osf.io/mw2q4/files/osfstorage) [[materials]](https://osf.io/mw2q4/files/osfstorage) [[analysis-code]](https://osf.io/mw2q4/files/osfstorage) [[reproducible-container]](https://doi.org/10.24433/CO.4128032.v1)
 
 Frank, M. C., Braginsky, M., Cachia, J., Coles, N., Hardwicke, T. E., Hawkins, R., Mathur, M., & Williams, R. (in preparation). Experimentology: An open science approach to experimental psychology methods. MIT Press.  
 [[open access book]](https://experimentology.io)
@@ -31,7 +31,7 @@ Dulitzki, C., Crane, S. M., Hardwicke, T. E., & Ioannidis, J. P. A. (in press). 
 
 #### 2023
 
-Hardwicke, T. E., & Vazire, S. (2023). Transparency is now the default at Psychological Science [editorial]. *Psychological Science*, 09567976231221573.  
+Hardwicke, T. E., & Vazire, S. (2023). Transparency is now the default at Psychological Science [editorial]. *Psychological Science*.  
 [[paper]](https://doi.org/10.1177/09567976231221573)
 
 Thibault, R. T., Kovacs, M., Hardwicke, T. E., Sarafoglou, A., Ioannidis, J. P., & Munafo, M. R. (2023). Reducing bias in secondary data analysis via an Explore and Confirm Analysis Workflow (ECAW): A proposal and survey of observational researchers. *Royal Society Open Science*, *10*, 230568.  
