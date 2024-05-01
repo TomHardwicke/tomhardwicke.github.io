@@ -13,7 +13,7 @@ output:
 
 <br>
 
-#### Preprints / Stage One Registered Reports
+#### Preprints
 
 Hardwicke, T. E., Schiavone, S., Clarke, B., Vazire, S. (Registered Report accepted in principle). Finding the right words to evaluate research: An empirical appraisal of eLife’s assessment vocabulary. *PLOS Biology*.  
 [[preprint]](https://doi.org/10.1101/2023.09.18.558287) [[preregistration]](https://doi.org/10.17605/OSF.IO/MKBTP) [[data]](https://osf.io/mw2q4/files/osfstorage) [[materials]](https://osf.io/mw2q4/files/osfstorage) [[analysis-code]](https://osf.io/mw2q4/files/osfstorage) [[reproducible-container]](https://doi.org/10.24433/CO.4128032.v1)
