@@ -15,6 +15,11 @@ output:
 
 #### Preprints
 
+**Hardwicke, T. E.** & Vazire, S. (accepted). Open science. In Frank, M. C. & Majid, A. (Eds). The Open Encyclopedia of Cognitive Science. MIT Press. 
+
+Whamond, A., Vazire, S., Clarke, B., Moodie, N., Schiavone, S. R., Thibault, R. T., **Hardwicke, T. E.** (submitted). How do psychology journals handle post-publication critique? A cross-sectional study of policy and practice.  
+[[preprint]]() [[preregistration]](https://osf.io/d6xf2) [[data]](https://osf.io/8k7m4/) [[materials]](https://osf.io/8k7m4/) [[analysis-code]](https://osf.io/8k7m4/) [[reproducible-container]]()
+
 **Hardwicke, T. E.**, Thibault, R. T., Clarke, B., Moodie, N., Crüwell, S., Schiavone, S. R., Handcock, S. A., Nghiem, K. A., Mody, F., Erole, T., & Vazire, S. (submitted). Prevalence of transparent research practices in psychology: A cross-sectional study of empirical articles published in 2022.  
 [[preprint]](https://osf.io/preprints/metaarxiv/532eu) [[preregistration]](https://osf.io/xh6mg) [[data]](https://osf.io/yck93/) [[materials]](https://osf.io/yck93/) [[analysis-code]](https://osf.io/yck93/) [[reproducible-container]](https://doi.org/10.24433/CO.5081898.v1)
 
@@ -32,7 +37,7 @@ Fernández, L. M., **Hardwicke, T. E.**, & Vadillo, M. A. (preprint). Retracted 
 
 #### 2024
 
-Dulitzki, C., Crane, S. M., **Hardwicke, T. E.**, & Ioannidis, J. P. A. (2024). Expanding the Data Ark: An attempt to make the data from highly cited social science papers publicly available. *Royal Society Open Science*, *11*(5), 240016.
+Dulitzki, C., Crane, S. M., **Hardwicke, T. E.**, & Ioannidis, J. P. A. (2024). Expanding the Data Ark: An attempt to make the data from highly cited social science papers publicly available. *Royal Society Open Science*, *11*(5), 240016.  
 [[paper]](https://doi.org/10.1098/rsos.240016) [[preprint]](https://osf.io/preprints/metaarxiv/w9crz/) [[preregistration]](https://osf.io/697wx) [[data]](https://osf.io/3kuwq/) [[materials]](https://osf.io/3kuwq/) [[analysis-code]](https://osf.io/3kuwq/) [[reproducible-container]](https://doi.org/10.24433/CO.5136309.v2)
 
 #### 2023
