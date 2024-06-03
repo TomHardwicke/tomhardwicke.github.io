@@ -15,11 +15,6 @@ output:
 
 #### Preprints
 
-**Hardwicke, T. E.** & Vazire, S. (accepted). Open science. In Frank, M. C. & Majid, A. (Eds). The Open Encyclopedia of Cognitive Science. MIT Press. 
-
-Whamond, A., Vazire, S., Clarke, B., Moodie, N., Schiavone, S. R., Thibault, R. T., **Hardwicke, T. E.** (submitted). How do psychology journals handle post-publication critique? A cross-sectional study of policy and practice.  
-[[preprint]]() [[preregistration]](https://osf.io/d6xf2) [[data]](https://osf.io/8k7m4/) [[materials]](https://osf.io/8k7m4/) [[analysis-code]](https://osf.io/8k7m4/) [[reproducible-container]]()
-
 **Hardwicke, T. E.**, Thibault, R. T., Clarke, B., Moodie, N., Crüwell, S., Schiavone, S. R., Handcock, S. A., Nghiem, K. A., Mody, F., Erole, T., & Vazire, S. (submitted). Prevalence of transparent research practices in psychology: A cross-sectional study of empirical articles published in 2022.  
 [[preprint]](https://osf.io/preprints/metaarxiv/532eu) [[preregistration]](https://osf.io/xh6mg) [[data]](https://osf.io/yck93/) [[materials]](https://osf.io/yck93/) [[analysis-code]](https://osf.io/yck93/) [[reproducible-container]](https://doi.org/10.24433/CO.5081898.v1)
 
