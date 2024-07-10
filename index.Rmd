@@ -21,9 +21,6 @@ output:
 Sandoval-Lentisco, A., Tortajada, M., López-Nicolás, R., López-López, J. A., Wagenmakers, E.J., Sánchez-Meca, J., & **Hardwicke, T. E.** (submitted). Preregistration of psychology meta-analyses: A cross-sectional study of prevalence and practice.  
 [[preprint]](https://osf.io/preprints/metaarxiv/627a4) [[preregistration]](https://osf.io/rnv5c) [[data]](https://osf.io/ru5h4/) [[materials]](https://osf.io/ru5h4/) [[analysis-code]](https://osf.io/ru5h4/)
 
-**Hardwicke, T. E.**, Schiavone, S. R., Clarke, B., & Vazire, S. (Registered Report accepted in principle). Finding the right words to evaluate research: An empirical appraisal of eLife’s assessment vocabulary. *PLOS Biology*.  
-[[preprint]](https://doi.org/10.1101/2024.04.30.591844) [[preregistration]](https://doi.org/10.17605/OSF.IO/MKBTP) [[data]](https://osf.io/mw2q4/files/osfstorage) [[materials]](https://osf.io/mw2q4/files/osfstorage) [[analysis-code]](https://osf.io/mw2q4/files/osfstorage) [[reproducible-container]](https://doi.org/10.24433/CO.4128032.v1)
-
 Frank, M. C., Braginsky, M., Cachia, J., Coles, N., **Hardwicke, T. E.**, Hawkins, R., Mathur, M., & Williams, R. (in press). Experimentology: An open science approach to experimental psychology methods. MIT Press.  
 [[open access book]](https://experimentology.io)
 
@@ -31,6 +28,9 @@ Fernández, L. M., **Hardwicke, T. E.**, & Vadillo, M. A. (preprint). Retracted 
 [[preprint]](https://doi.org/hcht) [[data]](https://osf.io/t73rk/) [[analysis-code]](https://osf.io/t73rk/)
 
 #### 2024
+
+**Hardwicke, T. E.**, Schiavone, S. R., Clarke, B., & Vazire, S. (in press). Finding the right words to evaluate research: An empirical appraisal of eLife’s assessment vocabulary [Registered Report]. *PLOS Biology*.  
+[[preprint]](https://doi.org/10.1101/2024.04.30.591844) [[preregistration]](https://doi.org/10.17605/OSF.IO/MKBTP) [[data]](https://osf.io/mw2q4/files/osfstorage) [[materials]](https://osf.io/mw2q4/files/osfstorage) [[analysis-code]](https://osf.io/mw2q4/files/osfstorage) [[reproducible-container]](https://doi.org/10.24433/CO.4128032.v1)
 
 Dulitzki, C., Crane, S. M., **Hardwicke, T. E.**, & Ioannidis, J. P. A. (2024). Expanding the Data Ark: An attempt to make the data from highly cited social science papers publicly available. *Royal Society Open Science*, *11*(5), 240016.  
 [[paper]](https://doi.org/10.1098/rsos.240016) [[preprint]](https://osf.io/preprints/metaarxiv/w9crz/) [[preregistration]](https://osf.io/697wx) [[data]](https://osf.io/3kuwq/) [[materials]](https://osf.io/3kuwq/) [[analysis-code]](https://osf.io/3kuwq/) [[reproducible-container]](https://doi.org/10.24433/CO.5136309.v2)
