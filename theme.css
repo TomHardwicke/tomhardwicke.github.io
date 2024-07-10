@@ -88,16 +88,21 @@ d-appendix {
 /* Add any additional CSS rules below                      */
 
 /* Styles for links in the publications section */
+
+/*
 #publications a, a:hover {
-  color: #4183c4;
+  color: #4183c4; 
   text-decoration: none;
   font-weight: 400;
 }
+*/
 
+/* 
 #publications a:hover {
   text-decoration: none;
   background-color: #d2edf9;
 }
+*/
 
 /* Hide title in navbar */
 .distill-site-header .nav-left {
@@ -115,3 +120,71 @@ d-appendix {
   flex-direction: row;
   justify-content: center;
 }
+
+/*-- ARTICLE TABLE OF CONTENTS --*/
+.d-contents {
+  --heading-size:    18px;
+  --contents-size:   13px;
+}
+
+
+/* CUSTOM BADGES */
+/* Define your custom pastel colors */
+
+:root {
+  --pastel-pink: #feecf0;
+  --pastel-blue: #eff5fb;
+  --pastel-green: #effaf5;
+  --pastel-yellow: #fffaeb;
+  --pastel-purple: #EEE7F5;
+  --pastel-peach: #fdefdb; 
+  --pastel-teal: #E4F9F9;
+}
+
+.btn-sm {
+  filter: brightness(98%);
+  margin-top: 5px;
+}
+
+/* Custom button classes */
+.btn-preprint {
+  background-color: var(--pastel-pink);
+  color: #000;
+}
+
+.btn-prereg {
+  background-color: var(--pastel-blue);
+  color: #000;
+}
+
+.btn-mat {
+  background-color: var(--pastel-yellow);
+  color: #000;
+}
+
+.btn-data {
+  background-color: var(--pastel-green);
+  color: #000;
+}
+
+.btn-code {
+  background-color: var(--pastel-purple);
+  color: #000;
+}
+
+.btn-repro {
+  background-color: var(--pastel-peach);
+  color: #000;
+}
+
+.btn-paper {
+  background-color: var(--pastel-teal);
+  color: #000;
+}
+
+/* Add hover effects */
+.btn:hover {
+  filter: brightness(100%);
+}
+
+
