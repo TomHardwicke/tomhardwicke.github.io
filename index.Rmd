@@ -116,7 +116,7 @@ Nosek, B. A., **Hardwicke, T. E.**, Moshontz, H., Allard, A., Corker, K. S., Dre
 <a href="https://doi.org/10.1177%2F1745691620979806" class="btn btn-sm btn-paper" role="button">paper</a>
 <a href="https://doi.org/10.31222/osf.io/9sz2y" class="btn btn-sm btn-preprint" role="button">preprint</a>
 <a href="https://osf.io/q96eh/" class="btn btn-sm btn-prereg" role="button">preregistration</a>
-<a href="https://osf.io/c89sy/" class="btn btn-sm btn-mat" role="button">materials</a>
+<a href="https://osf.io/se6xa/files/osfstorage" class="btn btn-sm btn-mat" role="button">materials</a>
 <a href="https://osf.io/t9n3a/files/osfstorage" class="btn btn-sm btn-data" role="button">data</a>
 <a href="https://osf.io/t2xu4/files/osfstorage" class="btn btn-sm btn-code" role="button">analysis-code</a>
 <a href="https://doi.org/10.24433/CO.1618143.v2" class="btn btn-sm btn-repro" role="button">reproducible-container</a>
