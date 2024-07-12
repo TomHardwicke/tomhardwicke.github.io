@@ -89,9 +89,9 @@ Thibault, R. T., Kovacs, M., **Hardwicke, T. E.**, Sarafoglou, A., Ioannidis, J.
 <a href="https://dx.doi.org/10.1098/rsos.220139" class="btn btn-sm btn-paper" role="button">paper</a>
 <a href="https://doi.org/hc7d" class="btn btn-sm btn-preprint" role="button">preprint</a>
 <a href="https://osf.io/hjvnw/" class="btn btn-sm btn-prereg" role="button">preregistration</a>
-<a href="https://osf.io/8b6jy/" class="btn btn-sm btn-mat" role="button">materials</a>
-<a href="https://osf.io/8b6jy/" class="btn btn-sm btn-data" role="button">data</a>
-<a href="https://osf.io/8b6jy/" class="btn btn-sm btn-code" role="button">analysis-code</a>
+<a href="https://osf.io/w3x5a/files/osfstorage" class="btn btn-sm btn-mat" role="button">materials</a>
+<a href="https://osf.io/w3x5a/files/osfstorage" class="btn btn-sm btn-data" role="button">data</a>
+<a href="https://osf.io/w3x5a/files/osfstorage" class="btn btn-sm btn-code" role="button">analysis-code</a>
 <a href="https://doi.org/10.24433/CO.3805142.v2" class="btn btn-sm btn-repro" role="button">reproducible-container</a>
 
 TARG Meta-Research Group & Collaborators [Thibault, R. T., **Hardwicke, T. E.**, Clark, R. W. A., Pennington, C. R., Nilsonne, G., O'Mahony, A., Drax, K., Thompson, J., Munafò, M. R.] (2022). Discrepancy review: A feasibility study of a novel peer review intervention to reduce undisclosed discrepancies between registrations and publications. *Royal Society Open Science*, *9*, 220142.  
