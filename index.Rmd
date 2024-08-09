@@ -62,7 +62,7 @@ Dulitzki, C., Crane, S. M., **Hardwicke, T. E.**, & Ioannidis, J. P. A. (2024). 
 
 #### 2023
 
-**Hardwicke, T. E.**, & Vazire, S. (2023). Transparency is now the default at Psychological Science [editorial]. *Psychological Science*.  
+**Hardwicke, T. E.**, & Vazire, S. (2023). Transparency is now the default at Psychological Science [editorial]. *Psychological Science*, *35*(7), 703-824.  
 <a href="https://doi.org/10.1177/09567976231221573" class="btn btn-sm btn-paper" role="button">paper</a>
 
 Thibault, R. T., Kovacs, M., **Hardwicke, T. E.**, Sarafoglou, A., Ioannidis, J. P., & Munafo, M. R. (2023). Reducing bias in secondary data analysis via an Explore and Confirm Analysis Workflow (ECAW): A proposal and survey of observational researchers. *Royal Society Open Science*, *10*, 230568.  
