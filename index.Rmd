@@ -21,7 +21,7 @@ output:
 <a href="https://osf.io/yck93/" class="btn btn-sm btn-mat" role="button">materials</a>
 <a href="https://osf.io/yck93/" class="btn btn-sm btn-data" role="button">data</a>
 <a href="https://osf.io/yck93/" class="btn btn-sm btn-code" role="button">analysis-code</a>
-<a href="https://doi.org/10.24433/CO.5081898.v1" class="btn btn-sm btn-repro" role="button">reproducible-container</a>
+<a href="https://doi.org/10.24433/CO.5081898.v2" class="btn btn-sm btn-repro" role="button">reproducible-container</a>
 
 Sandoval-Lentisco, A., Tortajada, M., López-Nicolás, R., López-López, J. A., Wagenmakers, E.J., Sánchez-Meca, J., & **Hardwicke, T. E.** (submitted). Preregistration of psychology meta-analyses: A cross-sectional study of prevalence and practice.  
 <a href="https://osf.io/preprints/metaarxiv/627a4" class="btn btn-sm btn-preprint" role="button">preprint</a>
@@ -60,10 +60,10 @@ Dulitzki, C., Crane, S. M., **Hardwicke, T. E.**, & Ioannidis, J. P. A. (2024). 
 <a href="https://osf.io/3kuwq/" class="btn btn-sm btn-code" role="button">analysis-code</a>
 <a href="https://doi.org/10.24433/CO.5136309.v2" class="btn btn-sm btn-repro" role="button">reproducible-container</a>
 
-#### 2023
-
-**Hardwicke, T. E.**, & Vazire, S. (2023). Transparency is now the default at Psychological Science [editorial]. *Psychological Science*, *35*(7), 703-824.  
+**Hardwicke, T. E.**, & Vazire, S. (2024). Transparency is now the default at Psychological Science [editorial]. *Psychological Science*, *35*(7), 703-824.  
 <a href="https://doi.org/10.1177/09567976231221573" class="btn btn-sm btn-paper" role="button">paper</a>
+
+#### 2023
 
 Thibault, R. T., Kovacs, M., **Hardwicke, T. E.**, Sarafoglou, A., Ioannidis, J. P., & Munafo, M. R. (2023). Reducing bias in secondary data analysis via an Explore and Confirm Analysis Workflow (ECAW): A proposal and survey of observational researchers. *Royal Society Open Science*, *10*, 230568.  
 <a href="https://doi.org/10.1098/rsos.230568" class="btn btn-sm btn-paper" role="button">paper</a>
