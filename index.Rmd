@@ -43,7 +43,7 @@ Fernández, L. M., **Hardwicke, T. E.**, & Vadillo, M. A. (preprint). Retracted 
 **Hardwicke, T. E.** & Vazire, S. (2024). Open science. In Frank, M. C. & Majid, A. (Eds). *The Open Encyclopedia of Cognitive Science*. MIT Press.  
 <a href="https://doi.org/10.21428/e2759450.cdacaf45" class="btn btn-sm btn-paper" role="button">open access book chapter</a>
 
-**Hardwicke, T. E.**, Schiavone, S. R., Clarke, B., & Vazire, S. (in press). An empirical appraisal of eLife’s assessment vocabulary [Registered Report]. *PLOS Biology*.  
+**Hardwicke, T. E.**, Schiavone, S. R., Clarke, B., & Vazire, S. (2024). An empirical appraisal of eLife’s assessment vocabulary [Registered Report]. *PLOS Biology*, *22*(8), e3002645.  
 <a href="https://doi.org/10.1101/2024.04.30.591844" class="btn btn-sm btn-preprint" role="button">preprint</a>
 <a href="https://doi.org/10.17605/OSF.IO/MKBTP" class="btn btn-sm btn-prereg" role="button">preregistration</a>
 <a href="https://osf.io/mw2q4/files/osfstorage" class="btn btn-sm btn-mat" role="button">materials</a>
