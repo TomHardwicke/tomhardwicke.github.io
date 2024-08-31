@@ -1,6 +1,6 @@
 ---
 title: "Tom Hardwicke"
-position: "Research Fellow"
+position: "Senior Research Fellow"
 university: "University of Melbourne"
 image: "files/me.jpeg"
 site: distill::distill_website
@@ -13,4 +13,4 @@ output:
 
 <br>
 
-Dr Tom Hardwicke is a Research Fellow at the Melbourne School of Psychological Sciences, University of Melbourne. He received his PhD in Experimental Psychology from University College London in 2016 and subsequently completed post-doctoral fellowships at the Meta-Research Innovation Center at Stanford University (METRICS), The QUEST Center for Responsible Research at Charité — Universitätsmedizin Berlin, and the Department of Psychology at the University of Amsterdam. Tom works at the intersection of psychology and meta-research (‘research-on-research’) on projects related to transparency, bias, peer review, scientific criticism, and reproducibility. Since January 2024, Tom is Senior Editor for Statistics, Transparency, and Rigour at the journal Psychological Science.
+Dr Tom Hardwicke is a Senior Research Fellow at the Melbourne School of Psychological Sciences, University of Melbourne. He received his PhD in Experimental Psychology from University College London in 2016 and subsequently completed post-doctoral fellowships at the Meta-Research Innovation Center at Stanford University (METRICS), The QUEST Center for Responsible Research at Charité — Universitätsmedizin Berlin, and the Department of Psychology at the University of Amsterdam. Tom works at the intersection of psychology and meta-research (‘research-on-research’) on projects related to transparency, bias, peer review, scientific criticism, and reproducibility. Since January 2024, Tom is Senior Editor for Statistics, Transparency, and Rigour at the journal Psychological Science.
