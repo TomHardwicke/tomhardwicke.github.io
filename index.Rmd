@@ -15,22 +15,22 @@ output:
 
 #### Preprints
 
-Sandoval-Lentisco, A., Tortajada, M., López-Nicolás, R., López-López, J. A., Wagenmakers, E.J., Sánchez-Meca, J., & **Hardwicke, T. E.** (submitted). Preregistration of psychology meta-analyses: A cross-sectional study of prevalence and practice.  
-<a href="https://osf.io/preprints/metaarxiv/627a4" class="btn btn-sm btn-preprint" role="button">preprint</a>
-<a href="https://osf.io/rnv5c" class="btn btn-sm btn-prereg" role="button">preregistration</a>
-<a href="https://osf.io/ru5h4/" class="btn btn-sm btn-mat" role="button">materials</a>
-<a href="https://osf.io/ru5h4/" class="btn btn-sm btn-data" role="button">data</a>
-<a href="https://osf.io/ru5h4/" class="btn btn-sm btn-code" role="button">analysis-code</a>
-
-Frank, M. C., Braginsky, M., Cachia, J., Coles, N., **Hardwicke, T. E.**, Hawkins, R., Mathur, M., & Williams, R. (in press). Experimentology: An open science approach to experimental psychology methods. MIT Press.  
-<a href="https://experimentology.io" class="btn btn-sm btn-paper" role="button">open access book</a>
-
 Fernández, L. M., **Hardwicke, T. E.**, & Vadillo, M. A. (preprint). Retracted papers clinging on to life: An observational study of post-retraction citations in psychology. *PsyArXiv*.  
 <a href="https://doi.org/hcht" class="btn btn-sm btn-preprint" role="button">preprint</a>
 <a href="https://osf.io/t73rk/" class="btn btn-sm btn-data" role="button">data</a>
 <a href="https://osf.io/t73rk/" class="btn btn-sm btn-code" role="button">analysis-code</a>
 
+Frank, M. C., Braginsky, M., Cachia, J., Coles, N., **Hardwicke, T. E.**, Hawkins, R., Mathur, M., & Williams, R. (in press). Experimentology: An open science approach to experimental psychology methods. MIT Press.  
+<a href="https://doi.org/10.25936/3JP6-5M50" class="btn btn-sm btn-paper" role="button">open access book</a>
+
 #### 2024
+
+Sandoval-Lentisco, A., Tortajada, M., López-Nicolás, R., López-López, J. A., Wagenmakers, E.J., Sánchez-Meca, J., & **Hardwicke, T. E.** (in press). Preregistration of psychology meta-analyses: A cross-sectional study of prevalence and practice. *Advances in Methods and Practices in Psychological Science*.  
+<a href="https://osf.io/preprints/metaarxiv/627a4" class="btn btn-sm btn-preprint" role="button">preprint</a>
+<a href="https://osf.io/rnv5c" class="btn btn-sm btn-prereg" role="button">preregistration</a>
+<a href="https://osf.io/ru5h4/" class="btn btn-sm btn-mat" role="button">materials</a>
+<a href="https://osf.io/ru5h4/" class="btn btn-sm btn-data" role="button">data</a>
+<a href="https://osf.io/ru5h4/" class="btn btn-sm btn-code" role="button">analysis-code</a>
 
 **Hardwicke, T. E.**, Thibault, R. T., Clarke, B., Moodie, N., Crüwell, S., Schiavone, S. R., Handcock, S. A., Nghiem, K. A., Mody, F., Erole, T., & Vazire, S. (in press). Prevalence of transparent research practices in psychology: A cross-sectional study of empirical articles published in 2022. *Advances in Methods and Practices in Psychological Science*.  
 <a href="https://osf.io/preprints/psyarxiv/t2zs9" class="btn btn-sm btn-preprint" role="button">preprint</a>
