@@ -15,6 +15,14 @@ output:
 
 #### Preprints
 
+Whamond, A., Vazire, S., Clarke, B., Moodie, N., Schiavone, S., Thibault, R. T., **Hardwicke, T. E.** (submitted). How do psychology journals handle post-publication critique? A cross-sectional study of policy and practice.  
+<a href="https://doi.org/10.31234/osf.io/eadhb" class="btn btn-sm btn-preprint" role="button">preprint</a>
+<a href="https://osf.io/nqj7b" class="btn btn-sm btn-prereg" role="button">preregistration</a>
+<a href="https://osf.io/8k7m4/" class="btn btn-sm btn-mat" role="button">materials</a>
+<a href="https://osf.io/8k7m4/" class="btn btn-sm btn-data" role="button">data</a>
+<a href="https://osf.io/8k7m4/" class="btn btn-sm btn-code" role="button">analysis-code</a>
+<a href="https://doi.org/10.24433/CO.4794801.v1" class="btn btn-sm btn-repro" role="button">reproducible-container</a>
+
 Fernández, L. M., **Hardwicke, T. E.**, & Vadillo, M. A. (preprint). Retracted papers clinging on to life: An observational study of post-retraction citations in psychology. *PsyArXiv*.  
 <a href="https://doi.org/hcht" class="btn btn-sm btn-preprint" role="button">preprint</a>
 <a href="https://osf.io/t73rk/" class="btn btn-sm btn-data" role="button">data</a>
