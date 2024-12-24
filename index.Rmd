@@ -40,7 +40,7 @@ Sandoval-Lentisco, A., Tortajada, M., López-Nicolás, R., López-López, J. A.,
 <a href="https://osf.io/ru5h4/" class="btn btn-sm btn-data" role="button">data</a>
 <a href="https://osf.io/ru5h4/" class="btn btn-sm btn-code" role="button">analysis-code</a>
 
-**Hardwicke, T. E.**, Thibault, R. T., Clarke, B., Moodie, N., Crüwell, S., Schiavone, S. R., Handcock, S. A., Nghiem, K. A., Mody, F., Erole, T., & Vazire, S. (2024). Prevalence of transparent research practices in psychology: A cross-sectional study of empirical articles published in 2022. *Advances in Methods and Practices in Psychological Science*. 
+**Hardwicke, T. E.**, Thibault, R. T., Clarke, B., Moodie, N., Crüwell, S., Schiavone, S. R., Handcock, S. A., Nghiem, K. A., Mody, F., Erole, T., & Vazire, S. (2024). Prevalence of transparent research practices in psychology: A cross-sectional study of empirical articles published in 2022. *Advances in Methods and Practices in Psychological Science*.  
 <a href="https://doi.org/10.1177/25152459241283477" class="btn btn-sm btn-paper" role="button">paper</a>
 <a href="https://osf.io/preprints/psyarxiv/t2zs9" class="btn btn-sm btn-preprint" role="button">preprint</a>
 <a href="https://osf.io/xh6mg" class="btn btn-sm btn-prereg" role="button">preregistration</a>
