@@ -1,7 +1,7 @@
 ---
 title: "Tom Hardwicke"
-position: "Senior Research Fellow"
-university: "University of Melbourne"
+position: "Senior Lecturer"
+university: "University of Sydney"
 image: "files/me.jpeg"
 site: distill::distill_website
 output:
