@@ -30,7 +30,7 @@ Fernández, L. M., **Hardwicke, T. E.**, & Vadillo, M. A. (preprint). Retracted 
 
 #### 2025
 
-Sandoval-Lentisco, A., Tortajada, M., López-Nicolás, R., López-López, J. A., Wagenmakers, E.J., Sánchez-Meca, J., & **Hardwicke, T. E.** (2025). Preregistration of psychology meta-analyses: A cross-sectional study of prevalence and practice. *Advances in Methods and Practices in Psychological Science*.  
+Sandoval-Lentisco, A., Tortajada, M., López-Nicolás, R., López-López, J. A., Wagenmakers, E.J., Sánchez-Meca, J., & **Hardwicke, T. E.** (2025). Preregistration of psychology meta-analyses: A cross-sectional study of prevalence and practice. *Advances in Methods and Practices in Psychological Science*. *8*(1).  
 <a href="https://doi.org/10.1177/25152459241300113" class="btn btn-sm btn-paper" role="button">paper</a>
 <a href="https://osf.io/preprints/metaarxiv/627a4" class="btn btn-sm btn-preprint" role="button">preprint</a>
 <a href="https://osf.io/rnv5c" class="btn btn-sm btn-prereg" role="button">preregistration</a>
@@ -43,13 +43,13 @@ Frank, M. C., Braginsky, M., Cachia, J., Coles, N., **Hardwicke, T. E.**, Hawkin
 
 #### 2024
 
-**Hardwicke, T. E.**, Thibault, R. T., Clarke, B., Moodie, N., Crüwell, S., Schiavone, S. R., Handcock, S. A., Nghiem, K. A., Mody, F., Erole, T., & Vazire, S. (2024). Prevalence of transparent research practices in psychology: A cross-sectional study of empirical articles published in 2022. *Advances in Methods and Practices in Psychological Science*.  
+**Hardwicke, T. E.**, Thibault, R. T., Clarke, B., Moodie, N., Crüwell, S., Schiavone, S. R., Handcock, S. A., Nghiem, K. A., Mody, F., Erole, T., & Vazire, S. (2024). Prevalence of transparent research practices in psychology: A cross-sectional study of empirical articles published in 2022. *Advances in Methods and Practices in Psychological Science*, *7*(4).  
 <a href="https://doi.org/10.1177/25152459241283477" class="btn btn-sm btn-paper" role="button">paper</a>
 <a href="https://osf.io/preprints/psyarxiv/t2zs9" class="btn btn-sm btn-preprint" role="button">preprint</a>
 <a href="https://osf.io/xh6mg" class="btn btn-sm btn-prereg" role="button">preregistration</a>
-<a href="https://osf.io/yck93/" class="btn btn-sm btn-mat" role="button">materials</a>
-<a href="https://osf.io/yck93/" class="btn btn-sm btn-data" role="button">data</a>
-<a href="https://osf.io/yck93/" class="btn btn-sm btn-code" role="button">analysis-code</a>
+<a href="https://osf.io/zk97j/files/osfstorage" class="btn btn-sm btn-mat" role="button">materials</a>
+<a href="https://osf.io/zk97j/files/osfstorage" class="btn btn-sm btn-data" role="button">data</a>
+<a href="https://osf.io/zk97j/files/osfstorage" class="btn btn-sm btn-code" role="button">analysis-code</a>
 <a href="https://doi.org/10.24433/CO.5081898.v2" class="btn btn-sm btn-repro" role="button">reproducible-container</a>
 
 **Hardwicke, T. E.** & Vazire, S. (2024). Open science. In Frank, M. C. & Majid, A. (Eds). *The Open Encyclopedia of Cognitive Science*. MIT Press.  
@@ -143,9 +143,9 @@ Nosek, B. A., **Hardwicke, T. E.**, Moshontz, H., Allard, A., Corker, K. S., Dre
 <a href="https://doi.org/10.1177/25152459211040837" class="btn btn-sm btn-paper" role="button">paper</a>
 <a href="https://doi.org/ftx5" class="btn btn-sm btn-preprint" role="button">preprint</a>
 <a href="https://osf.io/eh5qd/" class="btn btn-sm btn-prereg" role="button">preregistration</a>
-<a href="https://osf.io/w8h2q/" class="btn btn-sm btn-mat" role="button">materials</a>
-<a href="https://osf.io/w8h2q/" class="btn btn-sm btn-data" role="button">data</a>
-<a href="https://osf.io/w8h2q/" class="btn btn-sm btn-code" role="button">analysis-code</a>
+<a href="https://osf.io/gyzbm/files/osfstorage" class="btn btn-sm btn-mat" role="button">materials</a>
+<a href="https://osf.io/gyzbm/files/osfstorage" class="btn btn-sm btn-data" role="button">data</a>
+<a href="https://osf.io/gyzbm/files/osfstorage" class="btn btn-sm btn-code" role="button">analysis-code</a>
 <a href="https://doi.org/10.24433/CO.4225975.v3" class="btn btn-sm btn-repro" role="button">reproducible-container</a>
 
 **Hardwicke, T. E.**, Bohn, M., MacDonald, K., Hembacher, E., Nuijten, M. B., Peloquin, B. N., deMayo, B., Long, B., Yoon, E. J., & Frank, M. C. (2021). Analytic reproducibility in articles receiving open data badges at the journal Psychological Science: An observational study. *Royal Society Open Science*, *8*, 201494.  
