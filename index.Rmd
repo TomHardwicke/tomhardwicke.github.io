@@ -102,7 +102,7 @@ Thibault, R. T., Kovacs, M., **Hardwicke, T. E.**, Sarafoglou, A., Ioannidis, J.
 #### 2022
 
 **Hardwicke, T. E.**, Thibault, R. T., Kosie, J. E., Tzavella, L., Bendixen, T., Handcock, S. A. Köneke, V. E., Ioannidis, J. P. A. (2022). Post-publication critique at top-ranked journals across scientific disciplines: A cross-sectional assessment of policies and practice. *Royal Society Open Science*, *9*, 220139.  
-<a href="https://dx.doi.org/10.1098/rsos.220139" class="btn btn-sm btn-paper" role="button">paper</a>
+<a href="https://doi.org/10.1098/rsos.220139" class="btn btn-sm btn-paper" role="button">paper</a>
 <a href="https://doi.org/hc7d" class="btn btn-sm btn-preprint" role="button">preprint</a>
 <a href="https://osf.io/hjvnw/" class="btn btn-sm btn-prereg" role="button">preregistration</a>
 <a href="https://osf.io/w3x5a/files/osfstorage" class="btn btn-sm btn-mat" role="button">materials</a>
@@ -160,7 +160,7 @@ Nosek, B. A., **Hardwicke, T. E.**, Moshontz, H., Allard, A., Corker, K. S., Dre
 #### 2020
 
 **Hardwicke, T. E.**, & Goodman, S. N. (2020). How often do leading biomedical journals use statistical experts to evaluate statistical methods? The results of a survey. *PLOS ONE*, *15*, e0239598.  
-<a href="https://dx.doi.org/10.1371%2Fjournal.pone.0239598" class="btn btn-sm btn-paper" role="button">paper</a>
+<a href="https://doi.org/10.1371%2Fjournal.pone.0239598" class="btn btn-sm btn-paper" role="button">paper</a>
 <a href="https://doi.org/10.31222/osf.io/z27u4" class="btn btn-sm btn-preprint" role="button">preprint</a>
 <a href="https://doi.org/10.17605/osf.io/p7g8w" class="btn btn-sm btn-mat" role="button">materials</a>
 <a href="https://doi.org/10.17605/osf.io/nscv3" class="btn btn-sm btn-data" role="button">data</a>
@@ -179,7 +179,7 @@ Ferrero, M., **Hardwicke, T. E.**, Konstantinidis, E., & Vadillo, M. A. (2020). 
 <a href="https://osf.io/pxv5b/" class="btn btn-sm btn-code" role="button">analysis-code</a>
 
 **Hardwicke, T. E.**, Wallach, J. D., Kidwell, M. C., Bendixen, T., Crüwell, S., & Ioannidis, J. P. A. (2020). An empirical assessment of transparency and reproducibility-related research practices in the social sciences (2014-2017). *Royal Society Open Science*, *7*, 190806.  
-<a href="https://dx.doi.org/10.1098/rsos.190806" class="btn btn-sm btn-paper" role="button">paper</a>
+<a href="https://doi.org/10.1098/rsos.190806" class="btn btn-sm btn-paper" role="button">paper</a>
 <a href="https://doi.org/10.31222/osf.io/6uhg5" class="btn btn-sm btn-preprint" role="button">preprint</a>
 <a href="https://osf.io/u5bk9/" class="btn btn-sm btn-prereg" role="button">preregistration</a>
 <a href="https://osf.io/z9qtr/" class="btn btn-sm btn-mat" role="button">materials</a>
@@ -216,7 +216,7 @@ Nosek, B. A., Beck, E. D., Campbell, L., Flake, J. K., **Hardwicke, T. E.**, Mel
 
 **Hardwicke, T. E.** & Ioannidis, J. P. A. (2018). Mapping the universe of registered reports. *Nature Human Behaviour*, *2*, 793–796.  
 <a href="https://rdcu.be/8eBP" class="btn btn-sm btn-paper" role="button">paper</a>
-<a href="https://dx.doi.org/10.17605/OSF.IO/FZPCY" class="btn btn-sm btn-preprint" role="button">preprint</a>
+<a href="https://doi.org/10.17605/OSF.IO/FZPCY" class="btn btn-sm btn-preprint" role="button">preprint</a>
 <a href="https://osf.io/uzegq/" class="btn btn-sm btn-mat" role="button">materials</a>
 <a href="https://osf.io/rv7eb/" class="btn btn-sm btn-data" role="button">data</a>
 <a href="https://osf.io/uzfjp/" class="btn btn-sm btn-code" role="button">analysis-code</a>
@@ -225,8 +225,8 @@ Nosek, B. A., Beck, E. D., Campbell, L., Flake, J. K., **Hardwicke, T. E.**, Mel
 <a href="https://doi.org/10.1038/s41562-018-0477-2" class="btn btn-sm btn-paper" role="button">comment#2</a>
 
 **Hardwicke, T. E.**, Mathur, M. B., MacDonald, K., Nilsonne, G., Banks, G. C., Kidwell, M. C., Hofelich Mohr, A., Clayton, E., Yoon, E. J., Henry Tessler, M., Lenne, R. L., Altman, S., Long, B., & Frank, M. C. (2018). Data availability, reusability, and analytic reproducibility: Evaluating the impact of a mandatory open data policy at the journal Cognition. *Royal Society Open Science*, *5*, 180448.  
-<a href="https://dx.doi.org/10.1098/rsos.180448" class="btn btn-sm btn-paper" role="button">paper</a>
-<a href="https://dx.doi.org/10.17605/OSF.IO/39CFB" class="btn btn-sm btn-preprint" role="button">preprint</a>
+<a href="https://doi.org/10.1098/rsos.180448" class="btn btn-sm btn-paper" role="button">paper</a>
+<a href="https://doi.org/10.17605/OSF.IO/39CFB" class="btn btn-sm btn-preprint" role="button">preprint</a>
 <a href="https://osf.io/q4qy3/" class="btn btn-sm btn-prereg" role="button">preregistration</a>
 <a href="https://osf.io/k2mdr/" class="btn btn-sm btn-mat" role="button">materials</a>
 <a href="https://osf.io/6s8b3/" class="btn btn-sm btn-data" role="button">data</a>
@@ -243,7 +243,7 @@ Nosek, B. A., Beck, E. D., Campbell, L., Flake, J. K., **Hardwicke, T. E.**, Mel
 
 **Hardwicke, T. E.**, Henry Tessler, M., Peloquin, B., & Frank, M. C. (2018). A Bayesian decision-making framework for replication. *Behavioral and Brain Sciences*, *41*, e132.  
 <a href="https://doi.org/10.1017/S0140525X18000675" class="btn btn-sm btn-paper" role="button">paper</a>
-<a href="https://dx.doi.org/10.17605/OSF.IO/N3YAH" class="btn btn-sm btn-preprint" role="button">preprint</a>
+<a href="https://doi.org/10.17605/OSF.IO/N3YAH" class="btn btn-sm btn-preprint" role="button">preprint</a>
 
 Klein, O., **Hardwicke, T. E.**, Aust, F., Breuer, J., Danielsson, H., Hofelich Mohr, A., IJzerman, H., Nilsonne, G., Vanpaemel, W., & Frank, M. C. (2018). A practical guide for transparency in psychological science. *Collabra: Psychology*, *4*, 20.  
 <a href="https://doi.org/10.1525/collabra.158" class="btn btn-sm btn-paper" role="button">paper</a>
@@ -252,14 +252,14 @@ Klein, O., **Hardwicke, T. E.**, Aust, F., Breuer, J., Danielsson, H., Hofelich 
 #### 2017
 
 Cristea, I. A., Naudet, F., Shanks, D. R., & **Hardwicke, T. E.** (2017). Post-retrieval Tetris should not be likened to a ‘cognitive vaccine’. *Molecular Psychiatry*, *23*, 1972-1973.  
-<a href="https://dx.doi.org/10.1038/mp.2017.222" class="btn btn-sm btn-paper" role="button">paper</a>
+<a href="https://doi.org/10.1038/mp.2017.222" class="btn btn-sm btn-paper" role="button">paper</a>
 <a href="https://osf.io/nwz9j/" class="btn btn-sm btn-data" role="button">data</a>
 <a href="https://osf.io/p3z58/" class="btn btn-sm btn-code" role="button">analysis-code</a>
 
 #### 2016
 
 Kidwell, M. C., Lazarević, L. B., Baranski, E., **Hardwicke, T. E.**, Piechowski, S., Falkenberg, L-S., Kennett, C., Slowik, A., Sonnleitner, C., Hess-Holden, C., Errington, T. M., Fiedler, S., & Nosek, B. A. (2016). Badges to acknowledge open practices: A simple, low cost, effective method for increasing transparency. *PLOS Biology*, *14*, e1002456.  
-<a href="https://dx.doi.org/10.1371/journal.pbio.1002456" class="btn btn-sm btn-paper" role="button">paper</a>
+<a href="https://doi.org/10.1371/journal.pbio.1002456" class="btn btn-sm btn-paper" role="button">paper</a>
 <a href="https://doi.org/10.31222/osf.io/6uhg5" class="btn btn-sm btn-preprint" role="button">preprint</a>
 <a href="https://osf.io/3upzh/" class="btn btn-sm btn-prereg" role="button">preregistration</a>
 <a href="https://osf.io/8kt4b/" class="btn btn-sm btn-mat" role="button">materials</a>
@@ -267,11 +267,11 @@ Kidwell, M. C., Lazarević, L. B., Baranski, E., **Hardwicke, T. E.**, Piechowsk
 <a href="https://osf.io/257kv/" class="btn btn-sm btn-code" role="button">analysis-code</a>
 
 **Hardwicke, T. E.** & Shanks, D. R. (2016). Reply to Walker and Stickgold: Proposed boundary conditions on memory reconsolidation will require empirical verification. *PNAS*, *113*, E3993-E3994.  
-<a href="https://dx.doi.org/10.1073/pnas.1608235113" class="btn btn-sm btn-paper" role="button">paper</a>
+<a href="https://doi.org/10.1073/pnas.1608235113" class="btn btn-sm btn-paper" role="button">paper</a>
 <a href="files/sequenceReconReply.pdf" class="btn btn-sm btn-paper" role="button">pdf</a>
 
 **Hardwicke, T. E.**, Mahdi, T., & Shanks, D. R. (2016). Post-retrieval new learning does not reliably induce human memory updating via reconsolidation. *PNAS*, *113*, 5206-5211.  
-<a href="https://dx.doi.org/10.1073/pnas.1601440113" class="btn btn-sm btn-paper" role="button">paper</a>
+<a href="https://doi.org/10.1073/pnas.1601440113" class="btn btn-sm btn-paper" role="button">paper</a>
 <a href="files/sequenceRecon.pdf" class="btn btn-sm btn-paper" role="button">pdf</a>
 <a href="https://doi.org/10.31222/osf.io/6uhg5" class="btn btn-sm btn-preprint" role="button">preprint</a>
 <a href="https://osf.io/xyf34/" class="btn btn-sm btn-mat" role="button">materials</a>
@@ -280,7 +280,7 @@ Kidwell, M. C., Lazarević, L. B., Baranski, E., **Hardwicke, T. E.**, Piechowsk
 <a href="https://doi.org/10.1073/pnas.1607964113" class="btn btn-sm btn-paper" role="button">analysis-code</a>
 
 Vadillo, M. A., **Hardwicke, T. E.**, & Shanks, D. R. (2016). Selection bias, vote counting, and money priming effects: A comment on Rohrer, Pashler, and Harris (2015) and Vohs (2015). *Journal of Experimental Psychology: General*, *145*, 655-663.  
-<a href="https://dx.doi.org/10.1037/xge0000157" class="btn btn-sm btn-paper" role="button">paper</a>
+<a href="https://doi.org/10.1037/xge0000157" class="btn btn-sm btn-paper" role="button">paper</a>
 <a href="files/moneyPriming.pdf" class="btn btn-sm btn-paper" role="button">pdf</a>
 <a href="https://osf.io/4e3gy/" class="btn btn-sm btn-data" role="button">data</a>
 
@@ -292,15 +292,15 @@ Vadillo, M. A., **Hardwicke, T. E.**, & Shanks, D. R. (2016). Selection bias, vo
 #### Before 2016 {#pre-2016}
 
 Baker, R., Dexter, M., **Hardwicke, T. E.**, Goldstone, A., & Kourtzi, Z. (2014). Learning to predict: Exposure to temporal sequences facilitates prediction of future events. *Vision Research*, *99*, 124-133.  
-<a href="https://dx.doi.org/10.1016/j.visres.2013.10.017" class="btn btn-sm btn-paper" role="button">paper</a>
+<a href="https://doi.org/10.1016/j.visres.2013.10.017" class="btn btn-sm btn-paper" role="button">paper</a>
 <a href="files/learningToPredict.pdf" class="btn btn-sm btn-paper" role="button">pdf</a>
 
 Ludwig, C. J. H., Farrell, S., Ellis, L. A., **Hardwicke, T. E.**, & Gilchrist, I. D. (2012). Context-gated statistical learning and its role in visual-saccadic decisions. *Journal of Experimental Psychology: General*, *141*, 150-169.  
-<a href="https://dx.doi.org/10.1037/a0024916" class="btn btn-sm btn-paper" role="button">paper</a>
+<a href="https://doi.org/10.1037/a0024916" class="btn btn-sm btn-paper" role="button">paper</a>
 <a href="files/contextGatedSL.pdf" class="btn btn-sm btn-paper" role="button">pdf</a>
 
 **Hardwicke, T. E.**, Jameel, L., Jones, M., Walczak, E. J., & Magis-Weinberg, L. (2014). Only human: Scientists, systems, and suspect statistics. *Opticon1826*, *16*, 1-12.  
 <a href="files/onlyHuman.pdf" class="btn btn-sm btn-paper" role="button">pdf</a>
 
 **Hardwicke, T. E.** (2012). Biological Psychology. *Psychology Learning & Teaching*, *11*, 112-113.  
-<a href="https://dx.doi.org/10.2304/plat.2012.11.1.106" class="btn btn-sm btn-paper" role="button">paper</a>
+<a href="https://doi.org/10.2304/plat.2012.11.1.106" class="btn btn-sm btn-paper" role="button">paper</a>
