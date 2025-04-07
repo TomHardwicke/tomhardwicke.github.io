@@ -285,7 +285,7 @@ Vadillo, M. A., **Hardwicke, T. E.**, & Shanks, D. R. (2016). Selection bias, vo
 <a href="https://osf.io/4e3gy/" class="btn btn-sm btn-data" role="button">data</a>
 
 **Hardwicke, T. E.** (2016). Persistence and plasticity in the human memory system: An empirical investigation of the overwriting hypothesis. *PhD Thesis*.  
-<a href="https://dx.doi.org/10.17605/OSF.IO/R4C32" class="btn btn-sm btn-paper" role="button">thesis</a>
+<a href="https://doi.org/10.17605/OSF.IO/R4C32" class="btn btn-sm btn-paper" role="button">thesis</a>
 <a href="https://osf.io/rxtgs/" class="btn btn-sm btn-data" role="button">data</a>
 <a href="https://osf.io/rxtgs/" class="btn btn-sm btn-code" role="button">analysis-code</a>
 
