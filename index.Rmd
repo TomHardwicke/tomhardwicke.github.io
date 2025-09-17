@@ -22,7 +22,8 @@ Fernández, L. M., **Hardwicke, T. E.**, & Vadillo, M. A. (preprint). Retracted 
 
 #### 2025
 
-Whamond, A., Vazire, S., Clarke, B., Moodie, N., Schiavone, S., Thibault, R. T., **Hardwicke, T. E.** (accepted). How do psychology journals handle post-publication critique? A cross-sectional study of policy and practice. *Advances in Methods and Practices in Psychological Science*.  
+Whamond, A., Vazire, S., Clarke, B., Moodie, N., Schiavone, S., Thibault, R. T., **Hardwicke, T. E.** (2025). How do psychology journals handle post-publication critique? A cross-sectional study of policy and practice. *Advances in Methods and Practices in Psychological Science*, *8*(3).  
+<a href="https://doi.org/10.1177/25152459251366102" class="btn btn-sm btn-paper" role="button">paper</a>
 <a href="https://doi.org/10.31234/osf.io/eadhb" class="btn btn-sm btn-preprint" role="button">preprint</a>
 <a href="https://osf.io/nqj7b" class="btn btn-sm btn-prereg" role="button">preregistration</a>
 <a href="https://osf.io/8k7m4/" class="btn btn-sm btn-mat" role="button">materials</a>
