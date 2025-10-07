@@ -278,7 +278,7 @@ Kidwell, M. C., Lazarević, L. B., Baranski, E., **Hardwicke, T. E.**, Piechowsk
 <a href="https://osf.io/xyf34/" class="btn btn-sm btn-mat" role="button">materials</a>
 <a href="https://osf.io/bm47u/" class="btn btn-sm btn-data" role="button">data</a>
 <a href="https://osf.io/se6gb/" class="btn btn-sm btn-code" role="button">analysis-code</a>
-<a href="https://doi.org/10.1073/pnas.1607964113" class="btn btn-sm btn-paper" role="button">analysis-code</a>
+<a href="https://doi.org/10.1073/pnas.1607964113" class="btn btn-sm btn-paper" role="button">comment</a>
 
 Vadillo, M. A., **Hardwicke, T. E.**, & Shanks, D. R. (2016). Selection bias, vote counting, and money priming effects: A comment on Rohrer, Pashler, and Harris (2015) and Vohs (2015). *Journal of Experimental Psychology: General*, *145*, 655-663.  
 <a href="https://doi.org/10.1037/xge0000157" class="btn btn-sm btn-paper" role="button">paper</a>
