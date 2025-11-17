@@ -16,7 +16,7 @@ output:
 #### Preprints
 
 **Hardwicke, T. E.** (preprint). Risk of bias in robustness reports. *MetaArXiv*.  
-<a href="https://doi.org/10.31222/osf.io/wj26e_v1" class="btn btn-sm btn-preprint" role="button">preprint</a>
+<a href="https://doi.org/10.31222/osf.io/wj26e_v2" class="btn btn-sm btn-preprint" role="button">preprint</a>
 
 Fernández, L. M., **Hardwicke, T. E.**, & Vadillo, M. A. (preprint). Retracted papers clinging on to life: An observational study of post-retraction citations in psychology. *PsyArXiv*.  
 <a href="https://doi.org/hcht" class="btn btn-sm btn-preprint" role="button">preprint</a>
