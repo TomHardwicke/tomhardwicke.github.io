@@ -38,8 +38,8 @@ Whamond, A., Vazire, S., Clarke, B., Moodie, N., Schiavone, S., Thibault, R. T.,
 <a href="https://doi.org/10.31234/osf.io/eadhb" class="btn btn-sm btn-preprint" role="button">preprint</a>
 <a href="https://osf.io/nqj7b" class="btn btn-sm btn-prereg" role="button">preregistration</a>
 <a href="https://osf.io/8k7m4/" class="btn btn-sm btn-mat" role="button">materials</a>
-<a href="https://osf.io/8k7m4/" class="btn btn-sm btn-data" role="button">data</a>
-<a href="https://osf.io/8k7m4/" class="btn btn-sm btn-code" role="button">analysis-code</a>
+<a href="https://osf.io/z4h72/files/osfstorage" class="btn btn-sm btn-data" role="button">data</a>
+<a href="https://osf.io/z4h72/files/osfstorage" class="btn btn-sm btn-code" role="button">analysis-code</a>
 <a href="https://doi.org/10.24433/CO.3949618.v1" class="btn btn-sm btn-repro" role="button">reproducible-container</a>
 
 Sandoval-Lentisco, A., Tortajada, M., López-Nicolás, R., López-López, J. A., Wagenmakers, E.J., Sánchez-Meca, J., & **Hardwicke, T. E.** (2025). Preregistration of psychology meta-analyses: A cross-sectional study of prevalence and practice. *Advances in Methods and Practices in Psychological Science*. *8*(1).  
