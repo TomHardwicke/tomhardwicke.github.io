@@ -13,5 +13,5 @@ navbar:
     - text: "CV"
       href: files/hardwicke_cv.pdf
     - text: "Contact"
-      href: 'mailto:tom.hardwicke@unimelb.edu.au'
+      href: 'mailto:tom.hardwicke@sydney.edu.au'
 output: distill::distill_article
