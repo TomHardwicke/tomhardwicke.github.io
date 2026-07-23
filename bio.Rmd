@@ -7,6 +7,13 @@ site: distill::distill_website
 output:
   postcards::solana_mod
 ---
+<style>
+#bio p {
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+</style>
+
 <br>
 
 ## Bio
