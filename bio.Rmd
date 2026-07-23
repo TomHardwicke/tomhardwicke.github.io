@@ -3,13 +3,6 @@ title: "Tom Hardwicke"
 position: "Senior Lecturer"
 university: "University of Sydney"
 image: "files/me.jpeg"
-links:
-  - label: ORCID
-    url: "https://orcid.org/0000-0001-9485-4952"
-  - label: GScholar
-    url: "https://scholar.google.com/citations?user=1zq46yYAAAAJ&hl=en&inst=11461220086556808362"
-  - label: BSky
-    url: "https://bsky.app/profile/tomhardwicke.bsky.social"
 site: distill::distill_website
 output:
   postcards::solana_mod
@@ -28,4 +21,6 @@ output:
 <br>
 
 Dr Tom Hardwicke is a Senior Lecturer at the School of Psychology, University of Sydney, and Senior Editor for Statistics, Transparency, and Rigour, at the journal *Psychological Science*. He works at the intersection of psychology and meta-research (‘research-on-research’) on projects related to transparency, bias, peer review, scientific criticism, and reproducibility. Prior to joining the University of Sydney in 2025, he was a Senior Research Fellow at the University of Melbourne and completed postdoctoral fellowships at Charité — Universitätsmedizin Berlin, the University of Amsterdam, and Stanford University. He received his PhD in Experimental Psychology from University College London in 2016.
+
+OCRID: <a href="https://orcid.org/0000-0001-9485-4952">https://orcid.org/0000-0001-9485-4952</a>
 
