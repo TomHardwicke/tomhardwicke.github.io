@@ -3,6 +3,13 @@ title: "Tom Hardwicke"
 position: "Senior Lecturer"
 university: "University of Sydney"
 image: "files/me.jpeg"
+links:
+  - label: ORCID
+    url: "https://orcid.org/0000-0001-9485-4952"
+  - label: GoogleScholar
+    url: "https://scholar.google.com/citations?user=1zq46yYAAAAJ&hl=en&inst=11461220086556808362"
+  - label: BlueSky
+    url: "https://bsky.app/profile/tomhardwicke.bsky.social"
 site: distill::distill_website
 output:
   postcards::solana_mod
