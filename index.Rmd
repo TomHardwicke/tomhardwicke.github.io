@@ -47,7 +47,8 @@ Fernández, L. M., Hardwicke, T. E., & Vadillo, M. A. (preprint). Retracted pape
 
 #### 2026 
 
-Reiss, M. V., ...Hardwicke, T. E.... Roggenkamp, H. (in press). Improving computational reproducibility in the social sciences. *Nature Human Behaviour*.
+Reiss, M. V., ...Hardwicke, T. E.... Roggenkamp, H. (2026). Improving computational reproducibility in the social sciences. *Nature Human Behaviour*.  
+<a href="https://rdcu.be/gqvVA7iZHYma" class="btn btn-sm btn-paper" role="button">paper</a>
 
 #### 2025
 
